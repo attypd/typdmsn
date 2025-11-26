@@ -1,25 +1,1695 @@
-19:43:16-784 ForceTV(lzs) Factory:device/P2P_Qingxin_micro_android_v4.0_2016mc_uplog_20161229_02:40:22
-19:43:16-784 Develop Version:New version 2013,do not support old server, 3.14.17.8 build[Dec 29 2016 02:40:22]
-19:43:16-784 forcetv_init port:9912, pool:20MB
-19:43:16-784 forcetv now 2025-11-26 19:43:16
-19:43:16-785 call chan_block::instance()->open
-19:43:16-785 j_fixed_mem_pool::malloc try alloc num:18204, size:1152, alloc_block:0, use19:43:16-719:43:16-799 j_fixed_mem_pool::malloc prt min:0xb8b80010, max:0xef47f994
-19:43:16-799 chan_block::instance()->open success
-19:43:16-799 net_task::instance()->open success
-19:43:16-799 chan_mgr::instance()->open success
-19:43:16-799 publisher_mgr::instance()->open success
-19:43:16-800 x_ms_acceptor::open fd:7a, local:127.0.0.1:9907
-19:43:16-800 x_ms_acceptor ip:127.0.0.1, port:9907
-19:43:16-800 x_ms_acceptor ip:192.168.3.119, port:9907
-19:43:16-800 ms_acceptor::instance()->open success
-19:43:16-800 forcetv_run is_block:0
-19:43:16-800 x_net_task run call run_reactor_event_loop 0x359e
-19:43:16-801 Java_com_forcetech_android_ForceTV_stop
-19:43:16-801 forcetv_stop
-19:43:16-811 x_net_task run 19:43:17-79219:43:17-801 forcetv_exit 
-19:43:17-801 _forcetv_exit
-19:43:17-801 _forcetv_exit net_task::close()
-19:43:17-801 _forcetv_exit wait_task::close()
-19:43:17-801 _forcetv_exit chan_block::is19:43:17-80219:43:17-808 _forcetv_exit chan_block::close()
-19:43:17-808 _forcetv_exit J_OS::uninit_socket()
-19:43:17-808 _forcetv_exit x_log::close()
+19:48:40-000 ForceTV(lzs) Factory:device/P2P_fanya_c2micro_android_v3.0_2016mc_uplog_20150902_07:12:51
+19:48:40-000 Develop Version:New version 2013,do not support old server, 3.14.17.3 build[Sep  2 2015 07:12:51]
+19:48:40-000 forcetv_init port:9001, pool:20MB
+19:48:40-000 forcetv now 2025-11-26 19:48:40
+19:48:40-000 call chan_block::instance()->open
+19:48:40-000 j_fixed_mem_pool::malloc try alloc num:18204, size:1152, alloc_block:0, used_block:0
+19:48:40-031 j_fixed_mem_pool::malloc prt min:0xb1d00010, max:0xb417f994
+19:48:40-031 chan_block::instance()->open success
+19:48:40-031 net_task::instance()->open success
+19:48:40-031 chan_mgr::instance()->open success
+19:48:40-031 publisher_mgr::instance()->open success
+19:48:40-031 x_ms_acceptor::open fd:f1, local:127.0.0.1:9001
+19:48:40-032 x_ms_acceptor ip:127.0.0.1, port:9001
+19:48:40-032 x_ms_acceptor ip:192.168.3.119, port:9001
+19:48:40-032 ms_acceptor::instance()->open success
+19:48:40-032 forcetv_run is_block:0
+19:48:40-032 x_net_task run call run_reactor_ev19:419:49:13-07819:49:13-080 Java_com_forcetech_android_ForceTV_stop
+19:49:13-080 f19:49:13-08119:49:13-086 x_net_task run 19:49:14-07819:49:14-084 forcetv_exit 
+19:49:14-085 _forcetv_exit
+19:49:14-088 _forcetv_exit net_task::close()
+19:49:14-088 _forcetv_exit wait_task::close()
+19:49:14-088 _forcetv_exit chan_block::is19:49:14-09519:49:14-096 _forcetv_exit chan_block::close()
+19:49:14-096 _forcetv_exit J_OS::uninit_socket()
+19:49:14-096 _forcetv_exit x_log::close()
+27.0.0.1:9907
+Accept-Encoding: gzip
+
+Keep-Alive
+
+
+19:48:40-081 x_tcp_handler::_check_ptl http head fd:125, data:
+GET /cmd.xml?cmd=switch_chan&server=108.181.32.169:44117&id=68a6abe2000dd5d9a5012600500a1279 HTTP/1.1
+accept: */*
+connection: Keep-Alive
+user-agent: MTV
+Host: 127.0.0.1:9907
+Accept-Encoding: gzip
+
+
+19:48:40-081 x_vod_http_parser::x_vod_http_parser impl:x_cmd_http_parser
+19:48:40-081 x_tcp_handler::handle_input check_ptl ok, fd:125
+19:48:40-081 x_cmd_http_parser::handle_get fd:125 
+19:48:40-081 GET /cmd.xml?cmd=switch_chan&server=108.181.32.169:44117&id=68a6abe2000dd5d9a5012600500a1279 HTTP/1.1
+accept: */*
+connection: Keep-Alive
+user-agent: MTV
+Host: 127.0.0.1:9907
+Accept-Encoding: gzip
+
+
+19:48:40-081 x_cmd_http_parser::_deal_switch_chan call destroy_all_chan
+ 19:48:40-081 x_cmd_http_parser::_deal_switch_chan call _deal_start_chan
+ 19:48:40-081 x_cmd_http_parser::_deal_start_chan read chan id
+19:48:40-081 x_cmd_http_parser::_deal_start_chan call m_chan_cb->get_chan_read
+19:48:40-081 x_cmd_http_parser::_deal_start_chan init start_info,168
+19:48:40-081 x_cmd_http_parser::_deal_start_chan start_info id:68a6abe2000dd5d9a5012600500a1279
+19:48:40-081 x_cmd_http_parser::_deal_start_chan start_info server:108.181.32.169:44117
+19:48:40-081 x_cmd_http_parser::_deal_start_chan start_info server parse dns begin...
+19:48:40-081 x_cmd_http_parser::_deal_start_chan start_info server parse dns end
+19:48:40-081 x_cmd_http_parser::_deal_start_chan start_info link length:0
+19:48:40-081 x_cmd_http_parser::_deal_start_chan start_info userid:
+19:48:40-081 x_cmd_http_parser::_deal_start_chan cdn_policy:
+19:48:40-081 x_cmd_http_parser::_deal_start_chan filetype:
+19:48:40-081 x_cmd_http_parser::_deal_start_chan cdn_http_is-b:
+19:48:40-082 x_cmd_http_parser::_deal_start_chan start_info monitor:
+19:48:40-082 x_cmd_http_parser::_deal_start_chan start_info flag:
+19:48:40-082 x_cmd_http_parser::_deal_start_chan start_info bookdata:
+19:48:40-082 x_cmd_http_parser::_deal_start_chan start_info ref_chan_id:
+19:48:40-082 x_cmd_http_parser::_deal_start_chan start_info path:
+19:48:40-082 x_cmd_http_parser::_deal_start_chan start_info file:
+19:48:40-082 x_cmd_http_parser::_deal_start_chan start_info ratekbps:
+19:48:40-082 x_cmd_http_parser::_deal_start_chan start_info max:
+19:48:40-082 x_cmd_http_parser::_deal_start_chan start_info avg:
+19:48:40-082 x_cmd_http_parser::_deal_start_chan call chan_mgr::instance()->create_chan
+19:48:40-082 x_chan_mgr::create_chan chan_id:68a6abe2000dd5d9a5012600500a1279,server:108.181.32.169:44117 
+19:48:40-082 x_chan_mgr::create_chan, save file:
+19:48:40-082 x_chan_mgr::create_chan _create_chan_i begin
+19:48:40-082 x_chan_task::x_chan_task
+19:48:40-082 x_chan_protocol::open fd:126
+19:48:40-082 x_chan_protocol::open SO_RCVBUF:524288
+19:48:40-082 x_chan_protocol::open SO_SNDBUF:524288
+19:48:40-082  x_chan_task::open m_chan_ptl.open success
+19:48:40-082 localip:<addrs n="r" id="0a196c4c2c0f855718e92669b5410100"><a i="192.168.3.119" p="33578" /><a i="0.0.0.0" p="0" m="1"/></addrs>
+19:48:40-082  x_chan_task::open m_node_ply.open success
+19:48:40-082  x_chan_task::open m_httpcdn_ptl.open success
+19:48:40-082  x_chan_task::open m_http_is_ptl.open success
+19:48:40-082 x_chan_task::open query_fccs list
+19:48:40-082 x_chan_protocol::query_fccs_list fccs:108.181.32.169:44117
+19:48:40-082 x_chan_protocol::query_fccs_list fccs:108.181.32.169:44117
+19:48:40-082 x_chan_protocol::query_fccs_list fccs:108.181.32.169:44117
+19:48:40-083 x_chan_mgr::create_chan, x_chan_task->open success
+19:48:40-083 x_chan_mgr::create_chan _create_chan_i end
+19:48:40-083 x_cmd_http_parser::_send_cmd rephead:
+HTTP/1.1 200 OK
+Content-Length: 138
+Content-Type: text/xml
+Server: Forcetech World Cup
+
+
+19:48:40-083 x_cmd_http_parser::_send_cmd repbody:
+<?xml version="1.0" encoding="utf-8"?><forcetv><result ret="0" reason="success" op_clock_used="1" op_clock_start="388001" /></forcetv>
+
+
+19:48:40-383 x_tcp_handler::handle_input recv data fd:125, ret:218
+19:48:40-546 x_chan_task::recv_query_fccs_list_rep ret:18, fccs_ips_list size:1
+19:48:40-546 fccs_ips:108.181.32.169:44117
+19:48:40-546 x_chan_task::recv_query_fccs_list_rep in use
+19:48:40-546 x_chan_task::recv_query_fccs_list_rep fccs_list dns complete
+19:48:40-547 x_chan_protocol::query_fccs fccs:108.181.32.169:44117
+19:48:40-547 x_chan_task::open query_fccs 108.181.32.169:44117...
+19:48:40-547 x_chan_task::recv_query_fccs_list_rep ret:18, fccs_ips_list size:1
+19:48:40-547 fccs_ips:108.181.32.169:44117
+19:48:40-547 x_chan_task::recv_query_fccs_list_rep ret:18, fccs_ips_list size:1
+19:48:40-547 fccs_ips:108.181.32.169:44117
+19:48:40-638 x_chan_protocol::query_fccs fccs:108.181.32.169:44117
+19:48:40-638 x_chan_task::_check_for_node query_fccs2 fccs:108.181.32.169:44117, chan_id:68a6abe2000dd5d9a5012600500a1279
+19:48:40-855 x_chan_task::recv_query_node_caps_rep, ret:0, flag_crypt:0x18, addr:108.181.32.169:44117
+19:48:40-858 x_chan_task::recv_query_node_caps_rep, ret:0, flag_crypt:0x18, addr:108.181.32.169:44117
+19:48:40-858 x_chan_protocol::_do_query_fccs_rep version:20130716
+19:48:40-858 x_chan_task::recv_query_fccs_rep, fccs_ips:108.181.32.169:44117, ftds_ips:108.181.24.141:35026  ret:0 
+19:48:40-858 x_chan_task::ftds_ips:108.181.24.141:35026
+19:48:40-858 x_chan_task::ftds_ips:173.208.244.226:35090
+19:48:40-858 x_chan_task::ftds_ips:69.30.202.122:35038
+19:48:40-858 x_chan_task::recv_query_fccs_rep testting_ftds_list...
+19:48:40-859 x_chan_task::recv_query_fccs_rep loging ...
+19:48:41-018 x_chan_task::_check_for_node loging 108.181.32.169:44117 ...
+19:48:41-023 x_tcp_handler::handle_input close, fd:125,error:0
+19:48:41-023 x_tcp_handler::handle_close fd:125
+19:48:41-023 x_vod_http_parser::~x_vod_http_parser fd:125, impl:x_cmd_http_parser, send_bytes:0
+19:48:41-023 x_tcp_handler::~x_tcp_handler
+19:48:41-024 recv n1ew connection:127.0.0.1:40082,fd:125
+19:48:41-025 x_tcp_handler::x_tcp_handler 
+19:48:41-025 x_tcp_handler::open fd:125 set sndbuf to 262144
+19:48:41-030 x_tcp_handler::handle_input recv data fd:125, ret:218
+19:48:41-030 x_tcp_handler::_check_ptl http head fd:125, data:
+GET /68a6abe2000dd5d9a5012600500a1279.ts HTTP/1.1
+Icy-MetaData: 1
+User-Agent: ExoSourceManager/5.3.0 (Linux;Android 15) ExoPlayerLib/2.15.0
+Accept-Encoding: identity
+Host: 127.0.0.1:9907
+Connection: Keep-Alive
+
+
+19:48:41-030 x_tcp_handler::_check_ptl http head fd:125, data:
+GET /68a6abe2000dd5d9a5012600500a1279.ts HTTP/1.1
+Icy-MetaData: 1
+User-Agent: ExoSourceManager/5.3.0 (Linux;Android 15) ExoPlayerLib/2.15.0
+Accept-Encoding: identity
+Host: 127.0.0.1:9907
+Connection: Keep-Alive
+
+
+19:48:41-030 x_tcp_handler::_check_ptl get_chan_read ok
+19:48:41-030 x_tcp_handler::_check_ptl check_chan_ready ret not ok
+19:48:41-030 x_tcp_handler::handle_input check_ptl ok(but not set ok), fd:125
+19:48:41-076 x_chan_task::recv_ftds_test_rep, ftds_ips:173.208.244.226:35090, rtti:217, data_band:300, data_percent:80, curr_percent:0
+19:48:41-076 x_node_policy::connect_ftds_node ips:173.208.244.226:35090, id:add0f4e28912ffffffffffffffffffff
+19:48:41-076 x_chan_task::recv_ftds_test_rep, ftds_ips:173.208.244.226:35090, ret:0, hit:1
+19:48:41-079 x_chan_task::recv_ftds_test_rep, ftds_ips:173.208.244.226:35090, rtti:221, data_band:300, data_percent:80, curr_percent:0
+19:48:41-079 x_chan_task::recv_ftds_test_rep,testting_ftds_list  ftds_ips:173.208.244.226:35090, rtti:221, data_band:300, data_percent:80, curr_percent:0
+19:48:41-079 x_chan_task::recv_ftds_test_rep, ftds_ips:69.30.202.122:35038, rtti:221, data_band:300, data_percent:80, curr_percent:0
+19:48:41-079 x_node_policy::connect_backup_ftds ips:69.30.202.122:35038, id:451eca7a88deffffffffffffffffffff
+19:48:41-080 x_chan_task::recv_ftds_test_rep,testting_ftds_list  ftds_ips:69.30.202.122:35038, rtti:221, data_band:300, data_percent:80, curr_percent:0
+19:48:41-080 x_chan_task::recv_ftds_test_rep, ftds_ips:69.30.202.122:35038, rtti:221, data_band:300, data_percent:80, curr_percent:0
+19:48:41-080 x_chan_task::recv_ftds_test_rep,testting_ftds_list  ftds_ips:69.30.202.122:35038, rtti:221, data_band:300, data_percent:80, curr_percent:0
+19:48:41-082 x_chan_task::recv_ftds_test_rep, ftds_ips:108.181.24.141:35026, rtti:224, data_band:300, data_percent:80, curr_percent:0
+19:48:41-082 x_node_policy::connect_backup_ftds ips:108.181.24.141:35026, id:6cb5188d88d2ffffffffffffffffffff
+19:48:41-082 x_chan_task::recv_ftds_test_rep,testting_ftds_list  ftds_ips:108.181.24.141:35026, rtti:224, data_band:300, data_percent:80, curr_percent:0
+19:48:41-082 x_chan_task::recv_ftds_test_rep, ftds_ips:108.181.24.141:35026, rtti:224, data_band:300, data_percent:80, curr_percent:0
+19:48:41-082 x_chan_task::recv_ftds_test_rep,testting_ftds_list  ftds_ips:108.181.24.141:35026, rtti:224, data_band:300, data_percent:80, curr_percent:0
+19:48:41-088 x_chan_task::recv_login_rep, mapaddr:123.161.142.102:23283 
+19:48:41-088 x_chan_task::recv_login_rep reg_addr:<addrs n="r" id="0a196c4c2c0f855718e92669b5410100"><a i="192.168.3.119" p="33578" /><a i="123.161.142.102" p="23283" m="1"/></addrs>
+19:48:41-089 x_chan_task::recv_login_rep query fcdn list
+19:48:41-089 x_chan_task::recv_login_rep read chaninfo ips:173.208.244.226:35090
+19:48:41-089 x_chan_task::recv_login_rep, ret:0 not wait login
+19:48:41-089 x_chan_task::recv_query_fcdn_list_rep ret:0, fcdn_ips_list size:0
+19:48:41-136 x_tcp_handler::_check_ptl http head fd:125, data:
+GET /68a6abe2000dd5d9a5012600500a1279.ts HTTP/1.1
+Icy-MetaData: 1
+User-Agent: ExoSourceManager/5.3.0 (Linux;Android 15) ExoPlayerLib/2.15.0
+Accept-Encoding: identity
+Host: 127.0.0.1:9907
+Connection: Keep-Alive
+
+
+19:48:41-136 x_tcp_handler::_check_ptl get_chan_read ok
+19:48:41-136 x_tcp_handler::_check_ptl check_chan_ready ret not ok
+19:48:41-219 x_chan_task::_check_for_node, keep_alive chan_id:68a6abe2000dd5d9a5012600500a1279, fccs_ips:108.181.32.169:44117
+19:48:41-219 x_chan_task::_check_for_node,regaddring...
+ 19:48:41-219 x_chan_task::_check_for_node check link length:0
+19:48:41-219 x_chan_task::_check_for_chanstate reg_chan register:1,0-0, xy:0-0
+19:48:41-244 x_tcp_handler::_check_ptl http head fd:125, data:
+GET /68a6abe2000dd5d9a5012600500a1279.ts HTTP/1.1
+Icy-MetaData: 1
+User-Agent: ExoSourceManager/5.3.0 (Linux;Android 15) ExoPlayerLib/2.15.0
+Accept-Encoding: identity
+Host: 127.0.0.1:9907
+Connection: Keep-Alive
+
+
+19:48:41-244 x_tcp_handler::_check_ptl get_chan_read ok
+19:48:41-244 x_tcp_handler::_check_ptl check_chan_ready ret not ok
+19:48:41-303 x_chan_task::recv_chan_info_rep ips:173.208.244.226:35090, chan_info:
+<channel id="68a6abe2000dd5d9a5012600500a1279" name="[ID:997][HK] 凤凰中文 HONG KONG(TL)6" vod="0" ai_cdn="0" filetype="ts" ptl="http" ptlimpl="std" max_current="0" count="0" modify_time="2025-08-21 13:17:22" fvodid="" sub_filetype="ts" avgpacksize="940" packfix="1" byterate="348644" havetagZ="0" taghpos="3690374834"><fvodlist/><serverlist/></channel>
+ 
+19:48:41-303 m_file_size :2.
+19:48:41-303 x_node_policy::connect_ftds_node ips:173.208.244.226:35090, id:add0f4e28912ffffffffffffffffffff
+19:48:41-304  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:41-304  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:41-304  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:41-304 x_chan_task::recv_chan_info_rep query range
+19:48:41-304 x_chan_task::_enter_cache_in_parpare
+19:48:41-304  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:41-332 x_chan_task::recv_login_rep, ret:0 not wait login
+19:48:41-332 x_chan_task::recv_login_rep, ret:0 not wait login
+19:48:41-349 x_tcp_handler::_check_ptl http head fd:125, data:
+GET /68a6abe2000dd5d9a5012600500a1279.ts HTTP/1.1
+Icy-MetaData: 1
+User-Agent: ExoSourceManager/5.3.0 (Linux;Android 15) ExoPlayerLib/2.15.0
+Accept-Encoding: identity
+Host: 127.0.0.1:9907
+Connection: Keep-Alive
+
+
+19:48:41-349 x_tcp_handler::_check_ptl get_chan_read ok
+19:48:41-349 x_tcp_handler::_check_ptl check_chan_ready
+19:48:41-349 x_live_http_parser::x_live_http_parser impl:x_ts_live_http_parser
+19:48:41-447 x_chan_task::report_node_state chan_id:68a6abe2000dd5d9a5012600500a1279, play:1
+19:48:41-447 x_chan_task::_check_for_req id:68a6abe2000dd5d9a5012600500a1279 xy_range not ready
+19:48:41-458 x_ts_live_http_parser::handle_get fd:125,req:
+GET /68a6abe2000dd5d9a5012600500a1279.ts HTTP/1.1
+Icy-MetaData: 1
+User-Agent: ExoSourceManager/5.3.0 (Linux;Android 15) ExoPlayerLib/2.15.0
+Accept-Encoding: identity
+Host: 127.0.0.1:9907
+Connection: Keep-Alive
+
+
+19:48:41-458 x_ts_live_http_parser::handle_get check_chan_ready, 0 
+19:48:41-458 x_ts_live_http_parser::handle_get_rep ,req fd:125, head:
+GET /68a6abe2000dd5d9a5012600500a1279.ts HTTP/1.1
+Icy-MetaData: 1
+User-Agent: ExoSourceManager/5.3.0 (Linux;Android 15) ExoPlayerLib/2.15.0
+Accept-Encoding: identity
+Host: 127.0.0.1:9907
+Connection: Keep-Alive
+
+ 
+19:48:41-458 x_ts_live_http_parser::handle_get_rep , rep fd:125, rep:HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Cache-Control: no-cache
+Content-Type: application/octet-stream
+Date:  Wed, 26 Nov 2025 11:48:41 GMT
+Server: Microsoft-IIS/5.0
+
+
+19:48:41-492 x_chan_task::recv_query_nettype_rep, ips:173.208.244.226:35090, nettype:0, type:
+19:48:41-511 x_chan_task::recv_chan_data_range_rep range 3690364717-3690405162, size:40445, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:41-512 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690367548(3690364717)-3690405162, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:41-512 x_chan_task::recv_chan_data_range_rep range 3690364717-3690405162, size:40445, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:41-512 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690367548(3690364717)-3690405162, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:41-512 x_chan_task::recv_chan_data_range_rep range 3690364717-3690405162, size:40445, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:41-512 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690367548(3690364717)-3690405162, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:41-568 x_ts_live_http_parser::_handle_data m_cur_packet_id == 0
+19:48:41-669  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:48:41-669  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:48:41-669  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:41-669  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:41-670 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690367548
+19:48:41-672 x_chan_task::_calc_flow_except 767016,recv_busy_precent:100, cache state:0
+19:48:41-672 x_chan_task::_check_for_req calc_flow:767016, flow_expect:1150524, time_factor:150
+19:48:41-672 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:41-672 x_chan_task::_check_for_dbg play:0,xy:3690367548-3690405162,parent(r):3690367548-3690405162,req_id:0
+19:48:41-672 x_chan_task::_check_for_dbg do_req 0-0,size:0
+19:48:41-672 x_node_policy::dbg_print size:3 
+19:48:41-672 total req  0packs/s 0kbps total 0KB
+19:48:41-672 total recv 0packs/s 0kbps total 0KB(0,0) send 0packs/s 0kbps total 0KB
+19:48:41-672 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:41-672 x_live_cache::dbg_print total pak:15803, used pak:0, write_id:0
+19:48:41-673 x_range_state::dbg_print size:0
+19:48:41-673 x_chan_task::_decide_req_begin pack_id:3690368425,xy:3690367548-3690405162
+19:48:41-674 x_chan_task::tick _do_req num:245, ftds_num:245, node_num:0
+19:48:41-674 x_ts_live_http_parser::_handle_data m_cur_packet_id == 0
+19:48:41-736 x_chan_protocol::_do_check_link_rep, ips:108.181.32.169:44117
+19:48:41-736 x_chan_task::recv_check_link_rep, ret:0,link length:0
+19:48:41-783 x_ts_live_http_parser::_handle_data m_cur_packet_id == 0
+19:48:41-796 x_chan_task::recv_query_nettype_rep, ips:173.208.244.226:35090, nettype:0, type:
+19:48:41-848 x_chan_task::recv_query_node_layer_rep node_layer:0, addr:108.181.32.169:44117
+19:48:41-875 x_chan_task::_check_for_req calc_flow:767016, flow_expect:782356, time_factor:102
+19:48:41-875 x_chan_task::tick _do_re_req num:0
+19:48:41-876 x_chan_task::tick _do_req num:166, ftds_num:166, node_num:0
+19:48:41-885 x_chan_task::recv_chan_data_range_rep range 3690364717-3690405162, size:40445, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:41-885 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690367548(3690364717)-3690405162, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:41-885 x_ts_live_http_parser::_handle_data m_cur_packet_id == 0
+19:48:41-891 x_chan_task::recv_chan_data_range_rep range 3688957031-3688997476, size:40445, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:48:41-891 x_chan_task::recv_query_node_caps_rep, ret:0, flag_crypt:0x18, addr:69.30.202.122:35038
+19:48:41-995 x_chan_task::find_live_begin begin from key frame
+19:48:41-995 x_chan_task::find_live_begin fd:125 begin:3690368425, time_shift:0,range:3690367548-3690405162
+19:48:41-995 x_ts_live_http_parser::_handle_data find_live_begin:3690368425
+19:48:41-995 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:42-076 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690368835
+19:48:42-079 x_chan_task::_calc_flow_except 697288,recv_busy_precent:34, cache state:0
+19:48:42-079 x_chan_task::_check_for_req calc_flow:697288, flow_expect:711233, time_factor:102
+19:48:42-079 x_chan_task::tick _do_re_req num:0
+19:48:42-080 x_chan_task::tick _do_req num:151, ftds_num:151, node_num:0
+19:48:42-102 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:42-200 x_chan_task::_check_for_buf clear small than 3690364916
+19:48:42-212 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:42-312 x_chan_task::_check_for_req calc_flow:697288, flow_expect:808854, time_factor:116
+19:48:42-312 x_chan_task::tick _do_re_req num:0
+19:48:42-313 x_chan_task::tick _do_req num:172, ftds_num:172, node_num:0
+19:48:42-313 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:42-424 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:42-522 x_chan_task::_calc_flow_except 697288,recv_busy_precent:67, cache state:5
+19:48:42-522 x_chan_task::_check_for_req calc_flow:697288, flow_expect:732152, time_factor:105
+19:48:42-522 x_chan_task::tick _do_re_req num:16
+19:48:42-523 x_chan_task::tick _do_req num:140, ftds_num:140, node_num:0
+19:48:42-525 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:42-629 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:42-714 x_chan_task::_check_for_req calc_flow:697288, flow_expect:697288, time_factor:100
+19:48:42-714 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:42-714 x_chan_task::_check_for_dbg play:0,xy:3690367548-3690405162,parent(r):3690367548-3690405162,req_id:3690369298
+19:48:42-714 x_chan_task::_check_for_dbg do_req 3690368433[2]-3690369298,size:273
+19:48:42-714 x_node_policy::dbg_print size:3 
+19:48:42-714 total req  338packs/s 2542kbps total 816KB
+19:48:42-714 total recv 228packs/s 1790kbps total 575KB(575,0) send 0packs/s 0kbps total 0KB
+19:48:42-714 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:42-714 x_live_cache::dbg_print total pak:15803, used pak:601, write_id:0
+19:48:42-714 x_range_state::dbg_print size:60
+19:48:42-714 range 3690368604-3690368658,state 1,size:55
+19:48:42-714 x_chan_task::tick _do_re_req num:16
+19:48:42-714 x_chan_task::_check_for_req drag and wait, 3690369298,3690368433
+19:48:42-732 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:42-840 x_ts_live_http_parser::handle_cache_ctrl send first pack id:3690368425
+19:48:42-841 x_ts_live_http_parser::_handle_data _send_packet count:940, id:3690368426
+19:48:42-841 x_ts_live_http_parser::_handle_data _send_packet count:1880, id:3690368427
+19:48:42-842 x_ts_live_http_parser::_handle_data _send_packet count:94000, id:3690368525
+19:48:42-843 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368598
+19:48:42-923 x_chan_task::recv_query_node_caps_rep, ret:0, flag_crypt:0x18, addr:173.208.244.226:35090
+19:48:42-939 x_chan_task::_calc_flow_except 767016,recv_busy_precent:93, cache state:5
+19:48:42-940 x_chan_task::_check_for_req calc_flow:767016, flow_expect:859057, time_factor:112
+19:48:42-940 x_chan_task::tick _do_re_req num:18
+19:48:42-940 x_chan_task::tick _do_req num:165, ftds_num:165, node_num:0
+19:48:42-941 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368598
+19:48:43-043 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368598
+19:48:43-141 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690369463
+19:48:43-143 x_chan_task::_check_for_req calc_flow:767016, flow_expect:782356, time_factor:102
+19:48:43-143 x_chan_task::tick _do_re_req num:17
+19:48:43-143 x_chan_task::_check_for_req drag and wait, 3690369463,3690368598
+19:48:43-143 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368598
+19:48:43-250 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368598
+19:48:43-344 x_chan_task::_calc_flow_except 805366,recv_busy_precent:100, cache state:5
+19:48:43-344 x_chan_task::_check_for_req calc_flow:805366, flow_expect:805366, time_factor:100
+19:48:43-344 x_chan_task::tick _do_re_req num:12
+19:48:43-344 x_chan_task::_check_for_req drag and wait, 3690369463,3690368598
+19:48:43-351 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368598
+19:48:43-456 x_ts_live_http_parser::_handle_data _send_packet count:188000, id:3690368625
+19:48:43-456 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368659
+19:48:43-536 x_chan_task::_check_for_req calc_flow:805366, flow_expect:805366, time_factor:100
+19:48:43-536 x_chan_task::tick _do_re_req num:5
+19:48:43-537 x_chan_task::tick _do_req num:166, ftds_num:166, node_num:0
+19:48:43-560 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368659
+19:48:43-673 x_ts_live_http_parser::_handle_data _send_packet count:282000, id:3690368725
+19:48:43-674 x_ts_live_http_parser::_handle_data _send_packet count:376000, id:3690368825
+19:48:43-674 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368837
+19:48:43-753  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:48:43-753  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:48:43-753  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:43-753  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:43-756 x_chan_task::_calc_flow_except 845634,recv_busy_precent:95, cache state:5
+19:48:43-756 x_chan_task::_check_for_req calc_flow:845634, flow_expect:930197, time_factor:110
+19:48:43-756 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:43-756 x_chan_task::_check_for_dbg play:3690368837,xy:3690367548-3690405162,parent(r):3690367548-3690405162,req_id:3690369629
+19:48:43-756 x_chan_task::_check_for_dbg do_req 3690368837[3]-3690369629,size:191
+19:48:43-756 x_node_policy::dbg_print size:3 
+19:48:43-756 total req  597packs/s 4493kbps total 1183KB
+19:48:43-756 total recv 546packs/s 4285kbps total 970KB(970,0) send 0packs/s 0kbps total 0KB
+19:48:43-756 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:43-756 x_live_cache::dbg_print total pak:15803, used pak:1014, write_id:0
+19:48:43-756 x_range_state::dbg_print size:22
+19:48:43-756 range 3690368425-3690368836,state 1,size:412
+19:48:43-756 range 3690368838-3690368976,state 1,size:139
+19:48:43-756 range 3690368978-3690369089,state 1,size:112
+19:48:43-756 range 3690369146-3690369262,state 1,size:117
+19:48:43-757 x_chan_task::tick _do_re_req num:18
+19:48:43-757 x_chan_task::tick _do_req num:180, ftds_num:180, node_num:0
+19:48:43-782 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368837
+19:48:43-884 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368837
+19:48:43-950 x_chan_task::_check_for_req calc_flow:845634, flow_expect:845634, time_factor:100
+19:48:43-951 x_chan_task::tick _do_re_req num:2
+19:48:43-951 x_chan_task::_check_for_req drag and wait, 3690369809,3690368837
+19:48:43-960 x_chan_task::recv_chan_data_range_rep range 3690364717-3690405162, size:40445, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:43-960 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690367548(3690364717)-3690405162, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:43-962 x_chan_task::recv_chan_data_range_rep range 3690364717-3690405162, size:40445, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:43-962 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690367548(3690364717)-3690405162, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:43-972 x_chan_task::recv_chan_data_range_rep range 3688957031-3688997476, size:40445, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:48:43-979 x_chan_task::recv_chan_data_range_rep range 3686913900-3686954110, size:40210, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:48:43-986 x_chan_task::recv_query_node_caps_rep, ret:0, flag_crypt:0x18, addr:108.181.24.141:35026
+19:48:43-986 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368837
+19:48:44-097 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368837
+19:48:44-153 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690369809
+19:48:44-153 x_chan_task::_calc_flow_except 871610,recv_busy_precent:97, cache state:5
+19:48:44-153 x_chan_task::_check_for_req calc_flow:871610, flow_expect:880326, time_factor:101
+19:48:44-153 x_chan_task::tick _do_re_req num:2
+19:48:44-153 x_chan_task::_check_for_req drag and wait, 3690369809,3690368837
+19:48:44-199 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368837
+19:48:44-306 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690368837
+19:48:44-340 x_chan_task::_check_for_req calc_flow:871610, flow_expect:871610, time_factor:100
+19:48:44-340 x_chan_task::tick _do_re_req num:14
+19:48:44-340 x_chan_task::_check_for_req drag and wait, 3690369777,3690368837
+19:48:44-415 x_ts_live_http_parser::_parse_ts_pcr pcr_base:27230, byterate:2461kbps
+19:48:44-415 x_ts_live_http_parser::_notify_byterate byterate:307661, is_force:1
+19:48:44-415 x_chan_task::_reset_byterate(in) byterate:2461kbps
+19:48:44-415 x_chan_task::_reset_byterate(out) byterate:2723kbps, cache_state:5
+19:48:44-418 x_ts_live_http_parser::_handle_data _send_packet count:470000, id:3690368925
+19:48:44-419 x_ts_live_http_parser::_handle_data _send_packet count:564000, id:3690369025
+19:48:44-420 x_ts_live_http_parser::_handle_data _send_packet count:658000, id:3690369125
+19:48:44-420 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369145
+19:48:44-521 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369145
+19:48:44-555 x_chan_task::_calc_flow_except 851117,recv_busy_precent:100, cache state:5
+19:48:44-555 x_chan_task::_check_for_req calc_flow:851117, flow_expect:910695, time_factor:107
+19:48:44-555 x_chan_task::tick _do_re_req num:15
+19:48:44-556 x_chan_task::tick _do_req num:179, ftds_num:179, node_num:0
+19:48:44-625 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369145
+19:48:44-729 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369145
+19:48:44-745 x_chan_task::_check_for_req calc_flow:851117, flow_expect:851117, time_factor:100
+19:48:44-745 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:44-745 x_chan_task::_check_for_dbg play:3690369145,xy:3690367548-3690405162,parent(r):3690367548-3690405162,req_id:3690369988
+19:48:44-745 x_chan_task::_check_for_dbg do_req 3690369145[4]-3690369988,size:194
+19:48:44-745 x_node_policy::dbg_print size:3 
+19:48:44-745 total req  370packs/s 2783kbps total 1559KB
+19:48:44-745 total recv 348packs/s 2730kbps total 1311KB(1311,0) send 0packs/s 0kbps total 0KB
+19:48:44-745 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:44-745 x_live_cache::dbg_print total pak:15803, used pak:1370, write_id:0
+19:48:44-745 x_range_state::dbg_print size:14
+19:48:44-745 range 3690368425-3690369144,state 1,size:720
+19:48:44-745 range 3690369146-3690369325,state 1,size:180
+19:48:44-745 range 3690369327-3690369632,state 1,size:306
+19:48:44-745 x_chan_task::tick _do_re_req num:0
+19:48:44-745 x_chan_task::_check_for_req drag and wait, 3690369988,3690369145
+19:48:44-745 x_chan_task::_check_for_buf clear small than 3690364916
+19:48:44-745 _check_for_monitor userid:
+19:48:44-833 x_ts_live_http_parser::_handle_data _send_packet count:752000, id:3690369225
+19:48:44-834 x_ts_live_http_parser::_handle_data _send_packet count:846000, id:3690369325
+19:48:44-834 x_ts_live_http_parser::_handle_data _send_packet count:940000, id:3690369425
+19:48:44-835 x_ts_live_http_parser::_handle_data _send_packet count:1034000, id:3690369525
+19:48:44-836 x_ts_live_http_parser::_handle_data _send_packet count:1128000, id:3690369625
+19:48:44-837 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369834
+19:48:44-931 x_chan_task::_calc_flow_except 851117,recv_busy_precent:100, cache state:5
+19:48:44-931 x_chan_task::_check_for_req calc_flow:851117, flow_expect:851117, time_factor:100
+19:48:44-931 x_chan_task::tick _do_re_req num:0
+19:48:44-932 x_chan_task::tick _do_req num:181, ftds_num:181, node_num:0
+19:48:44-932 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369834
+19:48:44-988 x_chan_task::recv_set_monitor_addr_req monitor_ips:0,fcvs_ips:0
+19:48:44-988 x_chan_task::recv_set_monitor_addr_req monitor_ips:0,fcvs_ips:0
+19:48:44-988 x_chan_task::recv_set_monitor_addr_req monitor_ips:0,fcvs_ips:0
+19:48:45-041 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369834
+19:48:45-135 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690370169
+19:48:45-142 x_chan_task::_check_for_req calc_flow:851117, flow_expect:893672, time_factor:105
+19:48:45-143 x_chan_task::tick _do_re_req num:4
+19:48:45-145 x_chan_task::tick _do_req num:186, ftds_num:186, node_num:0
+19:48:45-145 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369834
+19:48:45-253 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369834
+19:48:45-353 x_chan_task::_calc_flow_except 851117,recv_busy_precent:90, cache state:5
+19:48:45-353 x_chan_task::_check_for_req calc_flow:851117, flow_expect:893672, time_factor:105
+19:48:45-353 x_chan_task::tick _do_re_req num:13
+19:48:45-355 x_chan_task::tick _do_req num:177, ftds_num:177, node_num:0
+19:48:45-355 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369834
+19:48:45-467 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369881
+19:48:45-549 x_chan_task::_check_for_req calc_flow:851117, flow_expect:851117, time_factor:100
+19:48:45-550 x_chan_task::tick _do_re_req num:9
+19:48:45-551 x_chan_task::tick _do_req num:172, ftds_num:172, node_num:0
+19:48:45-567 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369881
+19:48:45-671 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369915
+19:48:45-743  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:48:45-743  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:48:45-743  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:45-743  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:45-745 x_chan_task::_calc_flow_except 851117,recv_busy_precent:91, cache state:5
+19:48:45-745 x_chan_task::_check_for_req calc_flow:851117, flow_expect:851117, time_factor:100
+19:48:45-745 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:45-745 x_chan_task::_check_for_dbg play:3690369915,xy:3690367548-3690405162,parent(r):3690367548-3690405162,req_id:3690370704
+19:48:45-745 x_chan_task::_check_for_dbg do_req 3690369915[2]-3690370704,size:301
+19:48:45-745 x_node_policy::dbg_print size:3 
+19:48:45-745 total req  513packs/s 3858kbps total 2240KB
+19:48:45-745 total recv 449packs/s 3526kbps total 1893KB(1893,0) send 0packs/s 0kbps total 0KB
+19:48:45-745 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:45-745 x_live_cache::dbg_print total pak:15803, used pak:1979, write_id:0
+19:48:45-745 x_range_state::dbg_print size:45
+19:48:45-745 range 3690368425-3690369914,state 1,size:1490
+19:48:45-745 range 3690369929-3690369982,state 1,size:54
+19:48:45-745 x_chan_task::tick _do_re_req num:16
+19:48:45-746 x_chan_task::tick _do_req num:165, ftds_num:165, node_num:0
+19:48:45-774 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369915
+19:48:45-878 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369915
+19:48:45-960 x_chan_task::_check_for_req calc_flow:851117, flow_expect:910695, time_factor:107
+19:48:45-961 x_chan_task::tick _do_re_req num:21
+19:48:45-961 x_chan_task::_check_for_req drag and wait, 3690370869,3690369915
+19:48:45-962 x_chan_task::recv_chan_data_range_rep range 3690367301-3690405162, size:37861, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:45-962 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690369951(3690367301)-3690405162, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:45-963 x_chan_task::recv_chan_data_range_rep range 3690367301-3690405162, size:37861, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:45-963 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690369951(3690367301)-3690405162, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:45-963 x_chan_task::recv_chan_data_range_rep range 3686916412-3686954110, size:37698, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:48:45-963 x_chan_task::recv_chan_data_range_rep range 3688958666-3688997476, size:38810, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:48:45-981 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369915
+19:48:46-092 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690369915
+19:48:46-172 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690370869
+19:48:46-172 x_chan_task::_calc_flow_except 567411,recv_busy_precent:100, cache state:5
+19:48:46-172 x_chan_task::_check_for_req calc_flow:567411, flow_expect:601455, time_factor:106
+19:48:46-172 x_chan_task::tick _do_re_req num:25
+19:48:46-172 x_chan_task::_check_for_req drag and wait, 3690370869,3690369915
+19:48:46-200 x_ts_live_http_parser::_parse_ts_pcr pcr_base:27232, byterate:3609kbps
+19:48:46-200 x_ts_live_http_parser::_notify_byterate byterate:451165, is_force:1
+19:48:46-200 x_chan_task::_reset_byterate(in) byterate:3609kbps
+19:48:46-200 x_chan_task::_reset_byterate(out) byterate:3609kbps, cache_state:5
+19:48:46-201 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370001
+19:48:46-303 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370001
+19:48:46-362 x_chan_task::_check_for_req calc_flow:567411, flow_expect:567411, time_factor:100
+19:48:46-363 x_chan_task::tick _do_re_req num:10
+19:48:46-366 x_chan_task::tick _do_req num:111, ftds_num:111, node_num:0
+19:48:46-407 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370001
+19:48:46-524 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370239
+19:48:46-562 x_chan_task::_calc_flow_except 751941,recv_busy_precent:100, cache state:5
+19:48:46-562 x_chan_task::_check_for_req calc_flow:751941, flow_expect:751941, time_factor:100
+19:48:46-562 x_chan_task::tick _do_re_req num:13
+19:48:46-563 x_chan_task::tick _do_req num:147, ftds_num:147, node_num:0
+19:48:46-626 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370261
+19:48:46-728 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370261
+19:48:46-766 x_chan_task::_check_for_req calc_flow:751941, flow_expect:759460, time_factor:101
+19:48:46-766 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:46-766 x_chan_task::_check_for_dbg play:3690370261,xy:3690369951-3690405162,parent(r):3690369951-3690405162,req_id:3690371127
+19:48:46-766 x_chan_task::_check_for_dbg do_req 3690370261[3]-3690371127,size:209
+19:48:46-766 x_node_policy::dbg_print size:3 
+19:48:46-766 total req  508packs/s 3825kbps total 2707KB
+19:48:46-766 total recv 493packs/s 3866kbps total 2386KB(2386,0) send 0packs/s 0kbps total 0KB
+19:48:46-766 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:46-766 x_live_cache::dbg_print total pak:15803, used pak:2494, write_id:0
+19:48:46-766 x_range_state::dbg_print size:19
+19:48:46-766 range 3690368425-3690370260,state 1,size:1836
+19:48:46-766 range 3690370351-3690370474,state 1,size:124
+19:48:46-766 range 3690370509-3690370747,state 1,size:239
+19:48:46-766 x_chan_task::tick _do_re_req num:2
+19:48:46-767 x_chan_task::tick _do_req num:160, ftds_num:160, node_num:0
+19:48:46-840 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370320
+19:48:46-947 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370320
+19:48:46-973 x_chan_task::_calc_flow_except 751941,recv_busy_precent:100, cache state:5
+19:48:46-973 x_chan_task::_check_for_req calc_flow:751941, flow_expect:782018, time_factor:104
+19:48:46-973 x_chan_task::tick _do_re_req num:1
+19:48:46-974 x_chan_task::tick _do_req num:165, ftds_num:165, node_num:0
+19:48:47-048 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370320
+19:48:47-156 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370320
+19:48:47-171 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690371452
+19:48:47-173 x_chan_task::_check_for_req calc_flow:751941, flow_expect:751941, time_factor:100
+19:48:47-173 x_chan_task::tick _do_re_req num:8
+19:48:47-173 x_chan_task::tick _do_req num:152, ftds_num:152, node_num:0
+19:48:47-260 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370320
+19:48:47-275 x_chan_task::_check_for_buf clear small than 3690367487
+19:48:47-371 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370320
+19:48:47-386 x_chan_task::_calc_flow_except 751941,recv_busy_precent:78, cache state:5
+19:48:47-386 x_chan_task::_check_for_req calc_flow:751941, flow_expect:797057, time_factor:106
+19:48:47-386 x_chan_task::tick _do_re_req num:10
+19:48:47-386 x_chan_task::_check_for_req drag and wait, 3690371604,3690370320
+19:48:47-483 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370876
+19:48:47-586 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370876
+19:48:47-609 x_chan_task::_check_for_req calc_flow:751941, flow_expect:834654, time_factor:111
+19:48:47-609 x_chan_task::tick _do_re_req num:27
+19:48:47-610 x_chan_task::tick _do_req num:151, ftds_num:151, node_num:0
+19:48:47-695 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370876
+19:48:47-803  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:48:47-803  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:48:47-804  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:47-804  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:47-809 x_chan_task::_calc_flow_except 751941,recv_busy_precent:85, cache state:5
+19:48:47-809 x_chan_task::_check_for_req calc_flow:751941, flow_expect:751941, time_factor:100
+19:48:47-809 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:47-809 x_chan_task::_check_for_dbg play:3690370876,xy:3690369951-3690405162,parent(r):3690369951-3690405162,req_id:3690371755
+19:48:47-809 x_chan_task::_check_for_dbg do_req 3690370876[3]-3690371755,size:208
+19:48:47-809 x_node_policy::dbg_print size:3 
+19:48:47-809 total req  599packs/s 4506kbps total 3327KB
+19:48:47-809 total recv 492packs/s 3863kbps total 2988KB(2988,0) send 0packs/s 0kbps total 0KB
+19:48:47-809 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:47-809 x_live_cache::dbg_print total pak:15803, used pak:3123, write_id:0
+19:48:47-810 x_range_state::dbg_print size:51
+19:48:47-810 range 3690368425-3690370875,state 1,size:2451
+19:48:47-810 range 3690370877-3690371053,state 1,size:177
+19:48:47-810 range 3690371055-3690371199,state 1,size:145
+19:48:47-810 x_chan_task::tick _do_re_req num:21
+19:48:47-810 x_chan_task::tick _do_req num:139, ftds_num:139, node_num:0
+19:48:47-810 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690370876
+19:48:47-919 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371054
+19:48:48-012 x_chan_task::recv_chan_data_range_rep range 3690370397-3690405162, size:34765, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:48-012 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690372830(3690370397)-3690405162, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:48-012 x_chan_task::recv_chan_data_range_rep range 3690370397-3690405162, size:34765, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:48-012 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690372830(3690370397)-3690405162, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:48-013 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690372930
+19:48:48-014 x_chan_task::_check_for_req calc_flow:751941, flow_expect:766979, time_factor:102
+19:48:48-015 x_chan_task::tick _do_re_req num:9
+19:48:48-015 x_chan_task::tick _do_req num:154, ftds_num:154, node_num:0
+19:48:48-022 x_chan_task::recv_chan_data_range_rep range 3688959426-3688997755, size:38329, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:48:48-022 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371054
+19:48:48-065 x_chan_task::recv_chan_data_range_rep range 3686918090-3686954110, size:36020, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:48:48-128 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371054
+19:48:48-229 x_chan_task::_calc_flow_except 751941,recv_busy_precent:84, cache state:5
+19:48:48-229 x_chan_task::_check_for_req calc_flow:751941, flow_expect:804576, time_factor:107
+19:48:48-230 x_chan_task::tick _do_re_req num:7
+19:48:48-231 x_chan_task::tick _do_req num:164, ftds_num:164, node_num:0
+19:48:48-231 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371054
+19:48:48-340 x_ts_live_http_parser::_parse_ts_pcr pcr_base:27235, byterate:3140kbps
+19:48:48-340 x_ts_live_http_parser::_notify_byterate byterate:392541, is_force:1
+19:48:48-340 x_chan_task::_reset_byterate(in) byterate:3140kbps
+19:48:48-340 x_chan_task::_reset_byterate(out) byterate:3515kbps, cache_state:5
+19:48:48-342 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371241
+19:48:48-432 x_chan_task::_check_for_req calc_flow:751941, flow_expect:759460, time_factor:101
+19:48:48-433 x_chan_task::tick _do_re_req num:15
+19:48:48-433 x_chan_task::tick _do_req num:147, ftds_num:147, node_num:0
+19:48:48-441 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371241
+19:48:48-544 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371274
+19:48:48-634 x_chan_task::_calc_flow_except 732400,recv_busy_precent:84, cache state:5
+19:48:48-634 x_chan_task::_check_for_req calc_flow:732400, flow_expect:739724, time_factor:101
+19:48:48-634 x_chan_task::tick _do_re_req num:10
+19:48:48-635 x_chan_task::tick _do_req num:147, ftds_num:147, node_num:0
+19:48:48-646 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371274
+19:48:48-747 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371274
+19:48:48-833 x_chan_task::_check_for_req calc_flow:732400, flow_expect:732400, time_factor:100
+19:48:48-833 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:48-833 x_chan_task::_check_for_dbg play:3690371274,xy:3690372830-3690405162,parent(r):3690372830-3690405162,req_id:3690372506
+19:48:48-833 x_chan_task::_check_for_dbg do_req 3690371274[3]-3690372506,size:248
+19:48:48-833 x_node_policy::dbg_print size:3 
+19:48:48-833 total req  694packs/s 5223kbps total 4073KB
+19:48:48-833 total recv 567packs/s 4451kbps total 3669KB(3669,0) send 0packs/s 0kbps total 0KB
+19:48:48-833 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:48-833 x_live_cache::dbg_print total pak:15803, used pak:2394, write_id:0
+19:48:48-833 x_range_state::dbg_print size:38
+19:48:48-833 range 3690370568-3690371273,state 1,size:706
+19:48:48-833 range 3690371275-3690371629,state 1,size:355
+19:48:48-833 range 3690371631-3690371819,state 1,size:189
+19:48:48-833 x_chan_task::tick _do_re_req num:13
+19:48:48-833 x_chan_task::_check_for_req drag and wait, 3690372506,3690371274
+19:48:48-833 x_live_cache::_clear_small pak:3690369915 still in use, clear next
+19:48:48-847 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371274
+19:48:48-948 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371274
+19:48:49-037 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690372930
+19:48:49-037 x_chan_task::_calc_flow_except 732400,recv_busy_precent:100, cache state:5
+19:48:49-037 x_chan_task::_check_for_req calc_flow:732400, flow_expect:747048, time_factor:102
+19:48:49-038 x_chan_task::tick _do_re_req num:12
+19:48:49-038 x_chan_task::_check_for_req drag and wait, 3690372506,3690371274
+19:48:49-049 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371274
+19:48:49-160 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371827
+19:48:49-251 x_chan_task::_check_for_req calc_flow:732400, flow_expect:783668, time_factor:107
+19:48:49-252 x_chan_task::tick _do_re_req num:16
+19:48:49-252 x_chan_task::tick _do_req num:151, ftds_num:151, node_num:0
+19:48:49-264 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371827
+19:48:49-370 x_live_cache::_clear_small pak:3690370320 still in use, clear next
+19:48:49-370 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371827
+19:48:49-467 x_chan_task::_calc_flow_except 732400,recv_busy_precent:98, cache state:5
+19:48:49-467 x_chan_task::_check_for_req calc_flow:732400, flow_expect:790992, time_factor:108
+19:48:49-467 x_chan_task::tick _do_re_req num:12
+19:48:49-468 x_chan_task::tick _do_req num:156, ftds_num:156, node_num:0
+19:48:49-479 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690371827
+19:48:49-587 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372021
+19:48:49-665 x_chan_task::_check_for_req calc_flow:732400, flow_expect:732400, time_factor:100
+19:48:49-666 x_chan_task::tick _do_re_req num:0
+19:48:49-666 x_chan_task::tick _do_req num:156, ftds_num:156, node_num:0
+19:48:49-693 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372021
+19:48:49-796 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372397
+19:48:49-894  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:48:49-895  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:48:49-895  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:49-895  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:49-895 x_node_policy::clear_node check_pos:0
+19:48:49-896 x_chan_task::_calc_flow_except 732400,recv_busy_precent:99, cache state:5
+19:48:49-896 x_chan_task::_check_for_req calc_flow:732400, flow_expect:842260, time_factor:115
+19:48:49-896 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:49-896 x_chan_task::_check_for_dbg play:3690372397,xy:3690372830-3690405162,parent(r):3690372830-3690405162,req_id:3690372969
+19:48:49-896 x_chan_task::_check_for_dbg cache state:5, work state:0,parent(v):3690372830-3690404649,0.0.0.0:0
+19:48:49-896 x_chan_task::_check_for_dbg layer:0,in_parare:1,up_busy:0|0,live:8,play_block(in/out):-1:-1,too_fast:-1
+19:48:49-896 x_chan_task::_check_for_dbg do_req 3690372397[2]-3690372969,size:181
+19:48:49-896 x_node_policy::dbg_print size:3 
+19:48:49-896 total req  612packs/s 4609kbps total 4547KB
+19:48:49-897 total recv 582packs/s 4564kbps total 4176KB(4176,0) send 0packs/s 0kbps total 0KB
+19:48:49-897 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:49-897 node addr:173.208.244.226:35090,rtti/min:214/214,range:3690372830-3690405162,layer:0,score:11763,total(r,s):4176,0
+19:48:49-897 req  4273kbps, recv 4588kbps, busy 0kbps, send 0kbps, max_recv:4775kbps, max_send_recv:245kbps
+19:48:49-897 data id:7d08b5584431448318e63ca6ace93dfb
+19:48:49-897 x_chan_block::dbg_print used_block:2469, alloc_block:18204, alloc_size:19MB, max_size:20MB
+19:48:49-897 x_live_cache::dbg_print total pak:15803, used pak:2469, write_id:0
+19:48:49-897 x_range_state::dbg_print size:23
+19:48:49-897 range 3690370568-3690372396,state 1,size:1829
+19:48:49-897 range 3690372398-3690372512,state 1,size:115
+19:48:49-897 range 3690372514-3690372514,state 1,size:1
+19:48:49-897 range 3690372517-3690372520,state 1,size:4
+19:48:49-897 range 3690372522-3690372523,state 1,size:2
+19:48:49-897 range 3690372525-3690372534,state 1,size:10
+19:48:49-897 range 3690372537-3690372553,state 1,size:17
+19:48:49-897 range 3690372555-3690372583,state 1,size:29
+19:48:49-897 range 3690372585-3690372602,state 1,size:18
+19:48:49-897 range 3690372604-3690372611,state 1,size:8
+19:48:49-897 range 3690372613-3690372623,state 1,size:11
+19:48:49-897 range 3690372625-3690372627,state 1,size:3
+19:48:49-897 range 3690372630-3690372646,state 1,size:17
+19:48:49-897 range 3690372648-3690372654,state 1,size:7
+19:48:49-897 range 3690372656-3690372688,state 1,size:33
+19:48:49-897 range 3690372690-3690372728,state 1,size:39
+19:48:49-897 range 3690372730-3690372739,state 1,size:10
+19:48:49-897 range 3690372741-3690372745,state 1,size:5
+19:48:49-897 range 3690372747-3690372756,state 1,size:10
+19:48:49-897 range 3690372758-3690372772,state 1,size:15
+19:48:49-897 range 3690372774-3690372793,state 1,size:20
+19:48:49-897 range 3690372795-3690372802,state 1,size:8
+19:48:49-897 range 3690372804-3690372813,state 1,size:10
+19:48:49-897 x_chan_task::tick _do_re_req num:12
+19:48:49-897 x_chan_task::_check_for_req, req begin:3690372970-3690373136,nodes:8
+19:48:49-898 x_chan_task::tick _do_req num:167, ftds_num:167, node_num:0
+19:48:49-898 x_live_cache::_clear_small pak:3690370320 still in use, clear next
+19:48:49-898 x_chan_task::_check_for_buf clear small than 3690370567
+19:48:49-898 _check_for_monitor userid:
+19:48:49-898 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372397
+19:48:50-004 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372397
+19:48:50-092 x_chan_task::_check_for_node, keep_alive chan_id:68a6abe2000dd5d9a5012600500a1279, fccs_ips:108.181.32.169:44117
+19:48:50-093 x_chan_task::_check_for_node,regaddring...
+ 19:48:50-093 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690373136
+19:48:50-096 x_chan_task::_check_for_req calc_flow:732400, flow_expect:732400, time_factor:100
+19:48:50-096 x_chan_task::tick _do_re_req num:9
+19:48:50-097 x_chan_task::tick _do_req num:147, ftds_num:147, node_num:0
+19:48:50-104 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372397
+19:48:50-105 x_chan_task::recv_chan_data_range_rep range 3690370773-3690408362, size:37589, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:50-105 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690373404(3690370773)-3690408353, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:50-105 x_node_policy::recv_node_ping_rep, from:173.208.244.226:35090, rtti:212, min_rtti:212 ,now rtti:210
+19:48:50-108 x_chan_task::recv_chan_data_range_rep range 3690370773-3690408362, size:37589, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:50-108 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690373404(3690370773)-3690408362, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:50-114 x_chan_task::recv_chan_data_range_rep range 3688960278-3689000676, size:40398, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:48:50-115 x_node_policy::recv_node_ping_rep, from:69.30.202.122:35038, rtti:219, min_rtti:218 ,now rtti:221
+19:48:50-209 x_ts_live_http_parser::_parse_ts_pcr pcr_base:27239, byterate:2723kbps
+19:48:50-209 x_ts_live_http_parser::_notify_byterate byterate:340385, is_force:1
+19:48:50-209 x_chan_task::_reset_byterate(in) byterate:2723kbps
+19:48:50-209 x_chan_task::_reset_byterate(out) byterate:3357kbps, cache_state:5
+19:48:50-210 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372521
+19:48:50-217 x_chan_task::recv_chan_data_range_rep range 3686919682-3686956150, size:36468, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:48:50-217 x_node_policy::recv_node_ping_rep, from:108.181.24.141:35026, rtti:302, min_rtti:242 ,now rtti:323
+19:48:50-303 x_chan_task::_calc_flow_except 699381,recv_busy_precent:80, cache state:5
+19:48:50-303 x_chan_task::_check_for_req calc_flow:699381, flow_expect:720362, time_factor:103
+19:48:50-303 x_chan_task::tick _do_re_req num:16
+19:48:50-304 x_chan_task::tick _do_req num:137, ftds_num:137, node_num:0
+19:48:50-309 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372521
+19:48:50-416 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372521
+19:48:50-509 x_chan_task::_check_for_req calc_flow:699381, flow_expect:720362, time_factor:103
+19:48:50-509 x_chan_task::tick _do_re_req num:9
+19:48:50-510 x_chan_task::tick _do_req num:144, ftds_num:144, node_num:0
+19:48:50-520 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372521
+19:48:50-624 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372521
+19:48:50-707 x_chan_task::_calc_flow_except 699381,recv_busy_precent:85, cache state:5
+19:48:50-707 x_chan_task::_check_for_req calc_flow:699381, flow_expect:699381, time_factor:100
+19:48:50-707 x_chan_task::tick _do_re_req num:12
+19:48:50-708 x_chan_task::tick _do_req num:137, ftds_num:137, node_num:0
+19:48:50-726 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372521
+19:48:50-822 x_chan_task::recv_reg_addr_rep, ret:0 
+19:48:50-839 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372647
+19:48:50-910 x_chan_task::_check_for_req calc_flow:699381, flow_expect:706374, time_factor:101
+19:48:50-910 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:50-910 x_chan_task::_check_for_dbg play:3690372647,xy:3690373404-3690408362,parent(r):3690373404-3690408362,req_id:3690373701
+19:48:50-910 x_chan_task::_check_for_dbg do_req 3690372647[3]-3690373701,size:240
+19:48:50-910 x_node_policy::dbg_print size:3 
+19:48:50-910 total req  669packs/s 5033kbps total 5272KB
+19:48:50-910 total recv 564packs/s 4425kbps total 4820KB(4820,0) send 0packs/s 0kbps total 0KB
+19:48:50-910 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:50-910 x_live_cache::dbg_print total pak:15803, used pak:2504, write_id:0
+19:48:50-910 x_range_state::dbg_print size:40
+19:48:50-910 range 3690370958-3690372646,state 1,size:1689
+19:48:50-910 range 3690372648-3690372756,state 1,size:109
+19:48:50-910 range 3690372758-3690372844,state 1,size:87
+19:48:50-910 range 3690372892-3690373032,state 1,size:141
+19:48:50-910 range 3690373321-3690373372,state 1,size:52
+19:48:50-910 x_chan_task::tick _do_re_req num:20
+19:48:50-911 x_chan_task::tick _do_req num:130, ftds_num:130, node_num:0
+19:48:50-938 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372757
+19:48:51-042 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372757
+19:48:51-098 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690373831
+19:48:51-103 x_chan_task::_calc_flow_except 699649,recv_busy_precent:89, cache state:5
+19:48:51-103 x_chan_task::_check_for_req calc_flow:699649, flow_expect:699649, time_factor:100
+19:48:51-103 x_chan_task::tick _do_re_req num:3
+19:48:51-142 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372757
+19:48:51-252 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372757
+19:48:51-308 x_chan_task::_check_for_req calc_flow:699649, flow_expect:713641, time_factor:102
+19:48:51-308 x_chan_task::tick _do_re_req num:9
+19:48:51-309 x_chan_task::tick _do_req num:143, ftds_num:143, node_num:0
+19:48:51-361 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372757
+19:48:51-462 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372757
+19:48:51-511 x_chan_task::_calc_flow_except 699381,recv_busy_precent:90, cache state:5
+19:48:51-511 x_chan_task::_check_for_req calc_flow:699381, flow_expect:706374, time_factor:101
+19:48:51-511 x_chan_task::tick _do_re_req num:13
+19:48:51-511 x_chan_task::_check_for_req drag and wait, 3690373974,3690372757
+19:48:51-567 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372757
+19:48:51-670 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690372757
+19:48:51-717 x_chan_task::_check_for_req calc_flow:699381, flow_expect:720362, time_factor:103
+19:48:51-717 x_chan_task::tick _do_re_req num:16
+19:48:51-717 x_chan_task::_check_for_req drag and wait, 3690373974,3690372757
+19:48:51-782 x_ts_live_http_parser::_parse_ts_pcr pcr_base:27241, byterate:1694kbps
+19:48:51-782 x_ts_live_http_parser::_notify_byterate byterate:211846, is_force:1
+19:48:51-782 x_chan_task::_reset_byterate(in) byterate:1694kbps
+19:48:51-782 x_chan_task::_reset_byterate(out) byterate:3024kbps, cache_state:5
+19:48:51-786 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690373291
+19:48:51-888 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690373291
+19:48:51-934  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:48:51-934  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:48:51-934  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:51-934  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:51-934 x_chan_task::_calc_flow_except 630120,recv_busy_precent:100, cache state:5
+19:48:51-934 x_chan_task::_check_for_req calc_flow:630120, flow_expect:680529, time_factor:108
+19:48:51-934 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:51-934 x_chan_task::_check_for_dbg play:3690373291,xy:3690373404-3690408362,parent(r):3690373404-3690408362,req_id:3690373974
+19:48:51-934 x_chan_task::_check_for_dbg do_req 3690373291[3]-3690373971,size:32
+19:48:51-934 x_node_policy::dbg_print size:3 
+19:48:51-934 total req  513packs/s 3858kbps total 5579KB
+19:48:51-934 total recv 531packs/s 4166kbps total 5280KB(5280,0) send 0packs/s 0kbps total 0KB
+19:48:51-934 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:51-934 x_live_cache::dbg_print total pak:15803, used pak:2985, write_id:0
+19:48:51-934 x_range_state::dbg_print size:31
+19:48:51-934 range 3690370958-3690373290,state 1,size:2333
+19:48:51-934 range 3690373292-3690373692,state 1,size:401
+19:48:51-935 x_chan_task::tick _do_re_req num:0
+19:48:51-935 x_chan_task::tick _do_req num:145, ftds_num:145, node_num:0
+19:48:51-998 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690373770
+19:48:52-104 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690373770
+19:48:52-128 x_chan_task::_check_for_chanstate reg_chan register:1,3690370958-3690373769, xy:3690373404-3690408362
+19:48:52-128 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690374119
+19:48:52-132 x_chan_task::_check_for_req calc_flow:630120, flow_expect:630120, time_factor:100
+19:48:52-133 x_chan_task::tick _do_re_req num:16
+19:48:52-133 x_chan_task::tick _do_req num:118, ftds_num:118, node_num:0
+19:48:52-148 x_chan_task::recv_chan_data_range_rep range 3690371312-3690408362, size:37050, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:52-148 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690373905(3690371312)-3690408362, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:52-148 x_chan_task::recv_chan_data_range_rep range 3690371312-3690408362, size:37050, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:52-148 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690373905(3690371312)-3690408362, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:52-153 x_chan_task::recv_chan_data_range_rep range 3688961876-3689000676, size:38800, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:48:52-215 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690373770
+19:48:52-258 x_chan_task::recv_chan_data_range_rep range 3686919990-3686957310, size:37320, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:48:52-319 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690373770
+19:48:52-340 x_chan_task::_calc_flow_except 630120,recv_busy_precent:95, cache state:5
+19:48:52-341 x_chan_task::_check_for_req calc_flow:630120, flow_expect:655324, time_factor:104
+19:48:52-341 x_chan_task::tick _do_re_req num:2
+19:48:52-341 x_chan_task::tick _do_req num:137, ftds_num:137, node_num:0
+19:48:52-423 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690373770
+19:48:52-438 x_chan_task::_check_for_buf clear small than 3690371494
+19:48:52-525 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690373770
+19:48:52-545 x_chan_task::_check_for_req calc_flow:630120, flow_expect:642722, time_factor:102
+19:48:52-545 x_chan_task::tick _do_re_req num:10
+19:48:52-547 x_chan_task::tick _do_req num:127, ftds_num:127, node_num:0
+19:48:52-634 x_ts_live_http_parser::_parse_ts_pcr pcr_base:27244, byterate:2403kbps
+19:48:52-634 x_ts_live_http_parser::_notify_byterate byterate:300461, is_force:1
+19:48:52-634 x_chan_task::_reset_byterate(in) byterate:2403kbps
+19:48:52-634 x_chan_task::_reset_byterate(out) byterate:2900kbps, cache_state:5
+19:48:52-635 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690373847
+19:48:52-736 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690373847
+19:48:52-753 x_chan_task::_calc_flow_except 604248,recv_busy_precent:93, cache state:5
+19:48:52-753 x_chan_task::_check_for_req calc_flow:604248, flow_expect:628417, time_factor:104
+19:48:52-754 x_chan_task::tick _do_re_req num:11
+19:48:52-754 x_chan_task::tick _do_req num:123, ftds_num:123, node_num:0
+19:48:52-843 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690373847
+19:48:52-951 x_chan_task::_check_for_req calc_flow:604248, flow_expect:604248, time_factor:100
+19:48:52-951 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:52-951 x_chan_task::_check_for_dbg play:3690373847,xy:3690373905-3690408362,parent(r):3690373905-3690408362,req_id:3690374624
+19:48:52-951 x_chan_task::_check_for_dbg do_req 3690373847[3]-3690374624,size:216
+19:48:52-951 x_node_policy::dbg_print size:3 
+19:48:52-951 total req  571packs/s 4298kbps total 6211KB
+19:48:52-951 total recv 512packs/s 4019kbps total 5726KB(5726,0) send 0packs/s 0kbps total 0KB
+19:48:52-951 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:52-951 x_live_cache::dbg_print total pak:15803, used pak:2914, write_id:0
+19:48:52-951 x_range_state::dbg_print size:37
+19:48:52-951 range 3690371495-3690373846,state 1,size:2352
+19:48:52-951 range 3690373868-3690374035,state 1,size:168
+19:48:52-951 x_chan_task::tick _do_re_req num:9
+19:48:52-951 x_chan_task::tick _do_req num:120, ftds_num:120, node_num:0
+19:48:52-951 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690373847
+19:48:53-065 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374036
+19:48:53-160 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690374744
+19:48:53-162 x_chan_task::_calc_flow_except 604248,recv_busy_precent:86, cache state:5
+19:48:53-162 x_chan_task::_check_for_req calc_flow:604248, flow_expect:634460, time_factor:105
+19:48:53-163 x_chan_task::tick _do_re_req num:19
+19:48:53-163 x_chan_task::tick _do_req num:116, ftds_num:116, node_num:0
+19:48:53-170 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374036
+19:48:53-275 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374036
+19:48:53-369 x_chan_task::_check_for_req calc_flow:604248, flow_expect:622375, time_factor:103
+19:48:53-370 x_chan_task::tick _do_re_req num:8
+19:48:53-370 x_chan_task::tick _do_req num:124, ftds_num:124, node_num:0
+19:48:53-375 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374036
+19:48:53-483 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374073
+19:48:53-570 x_chan_task::_calc_flow_except 604248,recv_busy_precent:89, cache state:5
+19:48:53-570 x_chan_task::_check_for_req calc_flow:604248, flow_expect:604248, time_factor:100
+19:48:53-570 x_chan_task::tick _do_re_req num:18
+19:48:53-570 x_chan_task::tick _do_req num:111, ftds_num:111, node_num:0
+19:48:53-583 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374073
+19:48:53-693 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374338
+19:48:53-776 x_chan_task::_check_for_req calc_flow:604248, flow_expect:622375, time_factor:103
+19:48:53-777 x_chan_task::tick _do_re_req num:17
+19:48:53-777 x_chan_task::tick _do_req num:115, ftds_num:115, node_num:0
+19:48:53-799 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374338
+19:48:53-900 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374338
+19:48:53-986  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:48:53-987  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:48:53-988  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:53-988  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:53-991 x_chan_task::_calc_flow_except 604248,recv_busy_precent:100, cache state:5
+19:48:53-991 x_chan_task::_check_for_req calc_flow:604248, flow_expect:646545, time_factor:107
+19:48:53-991 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:53-991 x_chan_task::_check_for_dbg play:3690374338,xy:3690373905-3690408362,parent(r):3690373905-3690408362,req_id:3690375210
+19:48:53-991 x_chan_task::_check_for_dbg do_req 3690374338[3]-3690375210,size:188
+19:48:53-991 x_node_policy::dbg_print size:3 
+19:48:53-991 total req  587packs/s 4419kbps total 6815KB
+19:48:53-991 total recv 594packs/s 4661kbps total 6314KB(6314,0) send 0packs/s 0kbps total 0KB
+19:48:53-991 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:53-991 x_live_cache::dbg_print total pak:15803, used pak:3528, write_id:0
+19:48:53-991 x_range_state::dbg_print size:48
+19:48:53-991 range 3690371495-3690374337,state 1,size:2843
+19:48:53-991 range 3690374339-3690374429,state 1,size:91
+19:48:53-991 range 3690374431-3690374622,state 1,size:192
+19:48:53-991 range 3690374868-3690374922,state 1,size:55
+19:48:53-991 x_chan_task::tick _do_re_req num:15
+19:48:53-992 x_chan_task::tick _do_req num:123, ftds_num:123, node_num:0
+19:48:54-005 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374338
+19:48:54-115 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374338
+19:48:54-197 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690375333
+19:48:54-198 x_chan_task::_check_for_req calc_flow:604248, flow_expect:622375, time_factor:103
+19:48:54-198 x_chan_task::tick _do_re_req num:14
+19:48:54-198 x_chan_task::tick _do_req num:118, ftds_num:118, node_num:0
+19:48:54-204 x_chan_task::recv_chan_data_range_rep range 3688962627-3689000676, size:38049, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:48:54-216 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374338
+19:48:54-230 x_chan_task::recv_chan_data_range_rep range 3690373466-3690408362, size:34896, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:54-230 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690375908(3690373466)-3690408362, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:54-230 x_chan_task::recv_chan_data_range_rep range 3690373466-3690408362, size:34896, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:54-230 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690375908(3690373466)-3690408362, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:54-268 x_chan_task::recv_chan_data_range_rep range 3686920915-3686957310, size:36395, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:48:54-323 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374338
+19:48:54-402 x_chan_task::_calc_flow_except 617256,recv_busy_precent:94, cache state:5
+19:48:54-402 x_chan_task::_check_for_req calc_flow:617256, flow_expect:623428, time_factor:101
+19:48:54-402 x_chan_task::tick _do_re_req num:12
+19:48:54-402 x_chan_task::_check_for_req drag and wait, 3690375451,3690374338
+19:48:54-425 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374338
+19:48:54-536 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374338
+19:48:54-603 x_chan_task::_check_for_req calc_flow:617256, flow_expect:623428, time_factor:101
+19:48:54-604 x_chan_task::tick _do_re_req num:9
+19:48:54-604 x_chan_task::_check_for_req drag and wait, 3690375451,3690374338
+19:48:54-638 x_ts_live_http_parser::_parse_ts_pcr pcr_base:27245, byterate:3546kbps
+19:48:54-638 x_ts_live_http_parser::_notify_byterate byterate:443365, is_force:1
+19:48:54-638 x_chan_task::_reset_byterate(in) byterate:3546kbps
+19:48:54-638 x_chan_task::_reset_byterate(out) byterate:3546kbps, cache_state:5
+19:48:54-641 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374762
+19:48:54-743 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374762
+19:48:54-822 x_chan_task::_calc_flow_except 738941,recv_busy_precent:100, cache state:5
+19:48:54-822 x_chan_task::_check_for_req calc_flow:738941, flow_expect:805445, time_factor:109
+19:48:54-822 x_chan_task::tick _do_re_req num:13
+19:48:54-823 x_chan_task::tick _do_req num:158, ftds_num:158, node_num:0
+19:48:54-848 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374762
+19:48:54-951 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374762
+19:48:55-014  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:48:55-014  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:48:55-014  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:55-014  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:55-014 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690376008
+19:48:55-018 x_chan_task::_check_for_req calc_flow:738941, flow_expect:738941, time_factor:100
+19:48:55-018 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:48:55-018 x_chan_task::_check_for_dbg play:3690374762,xy:3690375908-3690408362,parent(r):3690375908-3690408362,req_id:3690375609
+19:48:55-019 x_chan_task::_check_for_dbg do_req 3690374762[3]-3690375609,size:187
+19:48:55-019 x_node_policy::dbg_print size:3 
+19:48:55-019 total req  533packs/s 4009kbps total 7239KB
+19:48:55-019 total recv 492packs/s 3859kbps total 6697KB(6697,0) send 0packs/s 0kbps total 0KB
+19:48:55-019 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:48:55-019 x_live_cache::dbg_print total pak:15803, used pak:2770, write_id:0
+19:48:55-019 x_range_state::dbg_print size:27
+19:48:55-019 range 3690373638-3690374761,state 1,size:1124
+19:48:55-019 range 3690374801-3690374861,state 1,size:61
+19:48:55-019 range 3690374863-3690375016,state 1,size:154
+19:48:55-019 range 3690375018-3690375221,state 1,size:204
+19:48:55-019 x_chan_task::tick _do_re_req num:16
+19:48:55-019 x_chan_task::_check_for_req, req begin:3690375610-3690375750,nodes:8
+19:48:55-019 x_chan_task::tick _do_req num:141, ftds_num:141, node_num:0
+19:48:55-020 x_chan_task::_check_for_buf clear small than 3690373637
+19:48:55-020 _check_for_monitor userid:
+19:48:55-055 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690374762
+19:48:55-163 x_ts_live_http_parser::_parse_ts_pcr pcr_base:27246, byterate:2698kbps
+19:48:55-163 x_ts_live_http_parser::_notify_byterate byterate:337341, is_force:1
+19:48:55-163 x_chan_task::_reset_byterate(in) byterate:2698kbps
+19:48:55-163 x_chan_task::_reset_byterate(out) byterate:3377kbps, cache_state:5
+19:48:55-168 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375017
+19:48:55-227 x_chan_task::recv_chan_data_range_rep range 3690373466-3690408362, size:34896, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:55-227 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690375908(3690373466)-3690408362, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:55-227 x_chan_task::recv_chan_data_range_rep range 3688963556-3689000676, size:37120, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:48:55-227 x_chan_task::recv_chan_data_range_rep range 3690373466-3690408362, size:34896, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:55-227 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690375908(3690373466)-3690408362, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:55-237 x_chan_task::_calc_flow_except 703600,recv_busy_precent:95, cache state:5
+19:48:55-237 x_chan_task::_check_for_req calc_flow:703600, flow_expect:766924, time_factor:109
+19:48:55-237 x_chan_task::tick _do_re_req num:0
+19:48:55-237 x_chan_task::tick _do_req num:163, ftds_num:163, node_num:0
+19:48:55-271 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375284
+19:48:55-273 x_chan_task::recv_chan_data_range_rep range 3686921378-3686957310, size:35932, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:48:55-373 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375284
+19:48:55-451 x_chan_task::_check_for_req calc_flow:703600, flow_expect:752852, time_factor:107
+19:48:55-452 x_chan_task::tick _do_re_req num:12
+19:48:55-452 x_chan_task::tick _do_req num:148, ftds_num:148, node_num:0
+19:48:55-479 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375284
+19:48:55-584 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375284
+19:48:55-668 x_chan_task::_calc_flow_except 703600,recv_busy_precent:99, cache state:5
+19:48:55-668 x_chan_task::_check_for_req calc_flow:703600, flow_expect:759888, time_factor:108
+19:48:55-668 x_chan_task::tick _do_re_req num:9
+19:48:55-669 x_chan_task::tick _do_req num:153, ftds_num:153, node_num:0
+19:48:55-684 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375284
+19:48:55-793 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375387
+19:48:55-883 x_chan_task::_check_for_req calc_flow:703600, flow_expect:752852, time_factor:107
+19:48:55-883 x_chan_task::tick _do_re_req num:8
+19:48:55-884 x_chan_task::tick _do_req num:152, ftds_num:152, node_num:0
+19:48:55-894 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375520
+19:48:56-000 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375520
+19:48:56-104 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690376366
+19:48:56-108 x_chan_task::_check_for_req calc_flow:703600, flow_expect:788032, time_factor:112
+19:48:56-108 x_chan_task::tick _do_re_req num:15
+19:48:56-109 x_chan_task::tick _do_req num:153, ftds_num:153, node_num:0
+19:48:56-109 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375520
+19:48:56-210 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375520
+19:48:56-310 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375520
+19:48:56-325 x_chan_task::_calc_flow_except 582401,recv_busy_precent:94, cache state:5
+19:48:56-325 x_chan_task::_check_for_req calc_flow:582401, flow_expect:628993, time_factor:108
+19:48:56-326 x_chan_task::tick _do_re_req num:16
+19:48:56-326 x_chan_task::tick _do_req num:118, ftds_num:118, node_num:0
+19:48:56-411 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375520
+19:48:56-519 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375520
+19:48:56-533 x_chan_task::_check_for_req calc_flow:582401, flow_expect:605697, time_factor:104
+19:48:56-533 x_chan_task::tick _do_re_req num:14
+19:48:56-534 x_chan_task::tick _do_req num:115, ftds_num:115, node_num:0
+19:48:56-627 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375520
+19:48:56-720 x_chan_task::_check_for_req calc_flow:582401, flow_expect:582401, time_factor:100
+19:48:56-721 x_chan_task::tick _do_re_req num:15
+19:48:56-732 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375520
+19:48:56-836 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375520
+19:48:56-947 x_chan_task::_calc_flow_except 562880,recv_busy_precent:100, cache state:5
+19:48:56-947 x_chan_task::_check_for_req calc_flow:562880, flow_expect:636054, time_factor:113
+19:48:56-947 x_chan_task::tick _do_re_req num:20
+19:48:56-949 x_chan_task::tick _do_req num:115, ftds_num:115, node_num:0
+19:48:56-949 x_ts_live_http_parser::_handle_data handle_build_packet m_cur_packet_id:3690375520
+19:48:57-058 x_ts_live_http_parser::_parse_ts_pcr pcr_base:27248, byterate:3356kbps
+19:48:57-058 x_ts_live_http_parser::_notify_byterate byterate:419585, is_force:1
+19:48:57-058 x_chan_task::_reset_byterate(in) byterate:3356kbps
+19:48:57-058 x_chan_task::_reset_byterate(out) byterate:3373kbps, cache_state:5
+19:48:57-061 x_ts_live_http_parser::handle_cache_ctrl in cache, pack id:3690375953
+19:48:57-061 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:57-146  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:48:57-147  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:48:57-147  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:57-148  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:57-148 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690376867
+19:48:57-154 x_chan_task::_check_for_req calc_flow:562880, flow_expect:585395, time_factor:104
+19:48:57-154 x_chan_task::tick _do_re_req num:11
+19:48:57-154 x_chan_task::tick _do_req num:114, ftds_num:114, node_num:0
+19:48:57-154 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:57-259 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:57-358 x_chan_task::recv_chan_data_range_rep range 3690373466-3690408362, size:34896, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:57-358 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690375908(3690373466)-3690408362, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:57-361 x_chan_task::_check_for_req calc_flow:562880, flow_expect:579766, time_factor:103
+19:48:57-362 x_chan_task::tick _do_re_req num:10
+19:48:57-364 x_chan_task::tick _do_req num:113, ftds_num:113, node_num:0
+19:48:57-364 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:57-367 x_chan_task::recv_chan_data_range_rep range 3686922302-3686957310, size:35008, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:48:57-367 x_chan_task::recv_chan_data_range_rep range 3688964279-3689000676, size:36397, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:48:57-468 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:57-571 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:57-585 x_chan_task::_calc_flow_except 562193,recv_busy_precent:100, cache state:5
+19:48:57-585 x_chan_task::_check_for_req calc_flow:562193, flow_expect:629656, time_factor:112
+19:48:57-586 x_chan_task::tick _do_re_req num:0
+19:48:57-588 x_chan_task::tick _do_req num:134, ftds_num:134, node_num:0
+19:48:57-680 x_chan_task::_check_for_buf clear small than 3690373637
+19:48:57-680 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:57-782 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:57-794 x_chan_task::_check_for_req calc_flow:562193, flow_expect:584680, time_factor:104
+19:48:57-794 x_chan_task::tick _do_re_req num:10
+19:48:57-795 x_chan_task::tick _do_req num:114, ftds_num:114, node_num:0
+19:48:57-889 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:57-996 x_chan_task::_check_for_req calc_flow:562193, flow_expect:567814, time_factor:101
+19:48:57-997 x_chan_task::tick _do_re_req num:6
+19:48:57-999 x_chan_task::tick _do_req num:115, ftds_num:115, node_num:0
+19:48:57-999 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:58-101 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:58-204 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690377457
+19:48:58-209 x_chan_task::_calc_flow_except 631677,recv_busy_precent:89, cache state:5
+19:48:58-209 x_chan_task::_check_for_req calc_flow:631677, flow_expect:669577, time_factor:106
+19:48:58-209 x_chan_task::tick _do_re_req num:7
+19:48:58-210 x_chan_task::tick _do_req num:135, ftds_num:135, node_num:0
+19:48:58-210 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:58-310 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:58-421 x_chan_task::_check_for_req calc_flow:631677, flow_expect:663260, time_factor:105
+19:48:58-421 x_chan_task::tick _do_re_req num:10
+19:48:58-423 x_chan_task::tick _do_req num:131, ftds_num:131, node_num:0
+19:48:58-423 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:58-528 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:58-630 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:58-645 x_chan_task::_check_for_req calc_flow:631677, flow_expect:707478, time_factor:112
+19:48:58-645 x_chan_task::tick _do_re_req num:15
+19:48:58-645 x_chan_task::tick _do_req num:136, ftds_num:136, node_num:0
+19:48:58-737 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:58-846 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:58-855 x_chan_task::_calc_flow_except 590513,recv_busy_precent:86, cache state:5
+19:48:58-855 x_chan_task::_check_for_req calc_flow:590513, flow_expect:620038, time_factor:105
+19:48:58-855 x_chan_task::tick _do_re_req num:13
+19:48:58-857 x_chan_task::tick _do_req num:119, ftds_num:119, node_num:0
+19:48:58-950 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:59-051 x_chan_task::_check_for_node, keep_alive chan_id:68a6abe2000dd5d9a5012600500a1279, fccs_ips:108.181.32.169:44117
+19:48:59-053 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690377978
+19:48:59-058 x_chan_task::_check_for_req calc_flow:590513, flow_expect:590513, time_factor:100
+19:48:59-060 x_chan_task::tick _do_re_req num:5
+19:48:59-062 x_chan_task::tick _do_req num:121, ftds_num:121, node_num:0
+19:48:59-062 x_ts_live_http_parser::handle_cache_ctrl in cache,slow send pack id:3690375953
+19:48:59-063 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:59-165 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:59-267 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:59-281  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:48:59-282  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:48:59-282  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:59-282  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:48:59-283 x_chan_task::_check_for_req calc_flow:590513, flow_expect:667279, time_factor:113
+19:48:59-283 x_chan_task::tick _do_re_req num:8
+19:48:59-285 x_chan_task::tick _do_req num:134, ftds_num:134, node_num:0
+19:48:59-368 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:59-469 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:59-489 x_chan_task::_calc_flow_except 617110,recv_busy_precent:87, cache state:5
+19:48:59-489 x_chan_task::_check_for_req calc_flow:617110, flow_expect:635623, time_factor:103
+19:48:59-490 x_chan_task::tick _do_re_req num:12
+19:48:59-491 x_chan_task::tick _do_req num:123, ftds_num:123, node_num:0
+19:48:59-498 x_chan_task::recv_chan_data_range_rep range 3688965119-3689004214, size:39095, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:48:59-498 x_chan_task::recv_chan_data_range_rep range 3690373522-3690410034, size:36512, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:48:59-498 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690376077(3690373522)-3690410016, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:48:59-577 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:59-687 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:59-717 x_chan_task::_check_for_req calc_flow:617110, flow_expect:697334, time_factor:113
+19:48:59-718 x_chan_task::tick _do_re_req num:8
+19:48:59-718 x_chan_task::tick _do_req num:140, ftds_num:140, node_num:0
+19:48:59-794 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:59-896 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:48:59-927 x_chan_task::_check_for_req calc_flow:617110, flow_expect:647965, time_factor:105
+19:48:59-928 x_chan_task::tick _do_re_req num:10
+19:48:59-931 x_chan_task::tick _do_req num:128, ftds_num:128, node_num:0
+19:49:00-001 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:00-103 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:00-145 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690378624
+19:49:00-147 x_chan_task::_calc_flow_except 619905,recv_busy_precent:96, cache state:5
+19:49:00-147 x_chan_task::_check_for_req calc_flow:619905, flow_expect:681895, time_factor:110
+19:49:00-148 x_chan_task::tick _do_re_req num:9
+19:49:00-149 x_chan_task::tick _do_req num:136, ftds_num:136, node_num:0
+19:49:00-212 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:00-320 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:00-347 x_node_policy::clear_node check_pos:3690371063
+19:49:00-351 x_chan_task::_check_for_req calc_flow:619905, flow_expect:626104, time_factor:101
+19:49:00-351 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:49:00-351 x_chan_task::_check_for_dbg play:3690375954,xy:3690376077-3690410016,parent(r):3690376077-3690410016,req_id:3690378760
+19:49:00-351 x_chan_task::_check_for_dbg cache state:5, work state:-1,parent(v):3690376077-3690409478,0.0.0.0:0
+19:49:00-351 x_chan_task::_check_for_dbg layer:0,in_parare:1,up_busy:0|0,live:19,play_block(in/out):1:-1,too_fast:-1
+19:49:00-351 x_chan_task::_check_for_dbg do_req 3690377799[3]-3690378760,size:216
+19:49:00-351 x_node_policy::dbg_print size:3 
+19:49:00-351 total req  652packs/s 4908kbps total 10369KB
+19:49:00-351 total recv 586packs/s 4594kbps total 9685KB(9685,0) send 0packs/s 0kbps total 0KB
+19:49:00-351 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:49:00-351 node addr:173.208.244.226:35090,rtti/min:217/212,range:3690376077-3690410016,layer:0,score:12444,total(r,s):9685,0
+19:49:00-351 req  4792kbps, recv 4794kbps, busy 0kbps, send 0kbps, max_recv:4877kbps, max_send_recv:245kbps
+19:49:00-351 data id:7d08b5584431448318e63ca6ace93dfb
+19:49:00-351 x_chan_block::dbg_print used_block:4842, alloc_block:18204, alloc_size:19MB, max_size:20MB
+19:49:00-352 x_live_cache::dbg_print total pak:15803, used pak:4842, write_id:0
+19:49:00-352 x_range_state::dbg_print size:36
+19:49:00-352 range 3690373703-3690377798,state 1,size:4096
+19:49:00-352 range 3690377800-3690378113,state 1,size:314
+19:49:00-352 range 3690378115-3690378116,state 1,size:2
+19:49:00-352 range 3690378118-3690378159,state 1,size:42
+19:49:00-352 range 3690378161-3690378166,state 1,size:6
+19:49:00-352 range 3690378168-3690378186,state 1,size:19
+19:49:00-352 range 3690378188-3690378193,state 1,size:6
+19:49:00-352 range 3690378195-3690378211,state 1,size:17
+19:49:00-353 range 3690378213-3690378213,state 1,size:1
+19:49:00-353 range 3690378215-3690378260,state 1,size:46
+19:49:00-353 range 3690378262-3690378282,state 1,size:21
+19:49:00-353 range 3690378284-3690378320,state 1,size:37
+19:49:00-353 range 3690378322-3690378323,state 1,size:2
+19:49:00-353 range 3690378325-3690378338,state 1,size:14
+19:49:00-353 range 3690378340-3690378344,state 1,size:5
+19:49:00-353 range 3690378346-3690378352,state 1,size:7
+19:49:00-353 range 3690378355-3690378363,state 1,size:9
+19:49:00-353 range 3690378365-3690378382,state 1,size:18
+19:49:00-353 range 3690378384-3690378388,state 1,size:5
+19:49:00-353 range 3690378390-3690378422,state 1,size:33
+19:49:00-353 range 3690378424-3690378431,state 1,size:8
+19:49:00-354 range 3690378433-3690378446,state 1,size:14
+19:49:00-354 range 3690378448-3690378452,state 1,size:5
+19:49:00-354 range 3690378454-3690378455,state 1,size:2
+19:49:00-354 range 3690378458-3690378468,state 1,size:11
+19:49:00-354 range 3690378470-3690378470,state 1,size:1
+19:49:00-354 range 3690378472-3690378476,state 1,size:5
+19:49:00-354 range 3690378478-3690378479,state 1,size:2
+19:49:00-354 range 3690378481-3690378486,state 1,size:6
+19:49:00-354 range 3690378488-3690378500,state 1,size:13
+19:49:00-354 range 3690378502-3690378533,state 1,size:32
+19:49:00-354 range 3690378535-3690378558,state 1,size:24
+19:49:00-354 range 3690378560-3690378563,state 1,size:4
+19:49:00-354 range 3690378566-3690378570,state 1,size:5
+19:49:00-355 range 3690378572-3690378575,state 1,size:4
+19:49:00-355 range 3690378577-3690378582,state 1,size:6
+19:49:00-355 x_chan_task::tick _do_re_req num:8
+19:49:00-355 x_chan_task::_check_for_req, req begin:3690378761-3690378885,nodes:8
+19:49:00-357 x_chan_task::tick _do_req num:125, ftds_num:125, node_num:0
+19:49:00-357 x_chan_task::_check_for_buf clear small than 3690373702
+19:49:00-357 _check_for_monitor userid:
+19:49:00-422 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:00-527 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:00-559 x_node_policy::recv_node_ping_rep, from:173.208.244.226:35090, rtti:214, min_rtti:212 ,now rtti:212
+19:49:00-563 x_chan_task::_check_for_req calc_flow:619905, flow_expect:657099, time_factor:106
+19:49:00-564 x_chan_task::tick _do_re_req num:14
+19:49:00-564 x_chan_task::tick _do_req num:126, ftds_num:126, node_num:0
+19:49:00-575 x_node_policy::recv_node_ping_rep, from:69.30.202.122:35038, rtti:223, min_rtti:217 ,now rtti:228
+19:49:00-582 x_node_policy::recv_node_ping_rep, from:108.181.24.141:35026, rtti:239, min_rtti:239 ,now rtti:234
+19:49:00-637 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:00-741 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:00-779 x_chan_task::_calc_flow_except 623405,recv_busy_precent:94, cache state:5
+19:49:00-779 x_chan_task::_check_for_req calc_flow:623405, flow_expect:673277, time_factor:108
+19:49:00-779 x_chan_task::tick _do_re_req num:10
+19:49:00-780 x_chan_task::tick _do_req num:133, ftds_num:133, node_num:0
+19:49:00-847 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:00-951 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:00-980 x_chan_task::_check_for_req calc_flow:623405, flow_expect:623405, time_factor:100
+19:49:00-981 x_chan_task::tick _do_re_req num:17
+19:49:00-982 x_chan_task::tick _do_req num:116, ftds_num:116, node_num:0
+19:49:01-058 x_ts_live_http_parser::handle_cache_ctrl in cache,slow send pack id:3690375954
+19:49:01-058 x_ts_live_http_parser::handle_cache_ctrl out cache have data pack id:3690375954
+19:49:01-069 x_ts_live_http_parser::_handle_data _send_packet() != 0_send_packet() != 0 m_cur_packet_id:3690376706
+19:49:01-171 x_ts_live_http_parser::handle_cache_ctrl in cache, pack id:3690378341
+19:49:01-171 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:01-184 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690379260
+19:49:01-185 x_chan_task::_check_for_req calc_flow:623405, flow_expect:635873, time_factor:102
+19:49:01-185 x_chan_task::tick _do_re_req num:18
+19:49:01-186 x_chan_task::tick _do_req num:117, ftds_num:117, node_num:0
+19:49:01-259 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:01-368 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:01-401  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:49:01-401  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:49:01-401  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:49:01-401  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:49:01-404 x_chan_task::_calc_flow_except 624794,recv_busy_precent:94, cache state:5
+19:49:01-405 x_chan_task::_check_for_req calc_flow:624794, flow_expect:681025, time_factor:109
+19:49:01-405 x_chan_task::tick _do_re_req num:14
+19:49:01-408 x_chan_task::tick _do_req num:131, ftds_num:131, node_num:0
+19:49:01-470 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:01-572 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:01-617 x_chan_task::recv_chan_data_range_rep range 3690373990-3690411900, size:37910, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:49:01-617 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690376643(3690373990)-3690411880, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:49:01-620 x_chan_task::_check_for_req calc_flow:624794, flow_expect:674777, time_factor:108
+19:49:01-620 x_chan_task::tick _do_re_req num:16
+19:49:01-621 x_chan_task::tick _do_req num:128, ftds_num:128, node_num:0
+19:49:01-623 x_chan_task::recv_chan_data_range_rep range 3688966573-3689004214, size:37641, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:49:01-645 x_chan_task::recv_chan_data_range_rep range 3686923536-3686960848, size:37312, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:49:01-677 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:01-781 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:01-826 x_chan_task::_check_for_req calc_flow:624794, flow_expect:637289, time_factor:102
+19:49:01-826 x_chan_task::tick _do_re_req num:15
+19:49:01-826 x_chan_task::tick _do_req num:121, ftds_num:121, node_num:0
+19:49:01-885 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:01-986 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:02-027 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690379757
+19:49:02-030 x_chan_task::_calc_flow_except 629078,recv_busy_precent:94, cache state:5
+19:49:02-030 x_chan_task::_check_for_req calc_flow:629078, flow_expect:641659, time_factor:102
+19:49:02-031 x_chan_task::tick _do_re_req num:16
+19:49:02-033 x_chan_task::tick _do_req num:121, ftds_num:121, node_num:0
+19:49:02-088 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:02-199 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:02-239 x_chan_task::_check_for_req calc_flow:629078, flow_expect:654241, time_factor:104
+19:49:02-239 x_chan_task::tick _do_re_req num:9
+19:49:02-239 x_chan_task::tick _do_req num:130, ftds_num:130, node_num:0
+19:49:02-300 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:02-405 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:02-452 x_chan_task::_check_for_req calc_flow:629078, flow_expect:673113, time_factor:107
+19:49:02-452 x_chan_task::tick _do_re_req num:10
+19:49:02-455 x_chan_task::tick _do_req num:133, ftds_num:133, node_num:0
+19:49:02-516 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:02-621 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:02-667 x_chan_task::_calc_flow_except 630789,recv_busy_precent:96, cache state:5
+19:49:02-668 x_chan_task::_check_for_req calc_flow:630789, flow_expect:674944, time_factor:107
+19:49:02-668 x_chan_task::tick _do_re_req num:11
+19:49:02-671 x_chan_task::tick _do_req num:133, ftds_num:133, node_num:0
+19:49:02-724 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:02-826 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:02-860 x_chan_task::_check_for_req calc_flow:630789, flow_expect:630789, time_factor:100
+19:49:02-860 x_chan_task::tick _do_re_req num:8
+19:49:02-927 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:02-978 x_chan_task::_check_for_buf clear small than 3690374177
+19:49:03-029 x_ts_live_http_parser::handle_cache_ctrl in cache,slow send pack id:3690378341
+19:49:03-031 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:03-092 x_chan_task::_check_for_chanstate reg_chan register:2,3690374178-3690379202, xy:3690376643-3690411880
+19:49:03-093 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690380273
+19:49:03-093 x_chan_task::_check_for_req calc_flow:630789, flow_expect:731715, time_factor:116
+19:49:03-093 x_chan_task::tick _do_re_req num:20
+19:49:03-093 x_chan_task::tick _do_req num:136, ftds_num:136, node_num:0
+19:49:03-129 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:03-234 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:03-299 x_chan_task::_calc_flow_except 582176,recv_busy_precent:98, cache state:5
+19:49:03-299 x_chan_task::_check_for_req calc_flow:582176, flow_expect:593819, time_factor:102
+19:49:03-299 x_chan_task::tick _do_re_req num:12
+19:49:03-300 x_chan_task::tick _do_req num:114, ftds_num:114, node_num:0
+19:49:03-345 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:03-451 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:03-500  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:49:03-501  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:49:03-501  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:49:03-501  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:49:03-504 x_chan_task::_check_for_req calc_flow:582176, flow_expect:593819, time_factor:102
+19:49:03-505 x_chan_task::tick _do_re_req num:15
+19:49:03-505 x_chan_task::tick _do_req num:111, ftds_num:111, node_num:0
+19:49:03-551 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:03-655 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:03-714 x_chan_task::recv_chan_data_range_rep range 3690376175-3690411900, size:35725, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:49:03-714 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690378675(3690376175)-3690411900, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:49:03-714 x_chan_task::recv_chan_data_range_rep range 3690376175-3690411900, size:35725, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:49:03-714 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690378675(3690376175)-3690411900, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:49:03-725 x_chan_task::recv_chan_data_range_rep range 3688967297-3689004214, size:36917, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:49:03-741 x_chan_task::_check_for_req calc_flow:582176, flow_expect:692789, time_factor:119
+19:49:03-741 x_chan_task::tick _do_re_req num:1
+19:49:03-743 x_chan_task::tick _do_req num:146, ftds_num:146, node_num:0
+19:49:03-757 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:03-758 x_chan_task::recv_chan_data_range_rep range 3686924460-3686960848, size:36388, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:49:03-860 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:03-958 x_chan_task::_calc_flow_except 653712,recv_busy_precent:86, cache state:5
+19:49:03-958 x_chan_task::_check_for_req calc_flow:653712, flow_expect:706008, time_factor:108
+19:49:03-959 x_chan_task::tick _do_re_req num:16
+19:49:03-960 x_chan_task::tick _do_req num:134, ftds_num:134, node_num:0
+19:49:03-960 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:04-068 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:04-154 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690380915
+19:49:04-156 x_chan_task::_check_for_req calc_flow:653712, flow_expect:653712, time_factor:100
+19:49:04-156 x_chan_task::tick _do_re_req num:18
+19:49:04-156 x_chan_task::tick _do_req num:121, ftds_num:121, node_num:0
+19:49:04-174 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:04-276 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:04-358 x_chan_task::_check_for_req calc_flow:653712, flow_expect:660249, time_factor:101
+19:49:04-359 x_chan_task::tick _do_re_req num:13
+19:49:04-359 x_chan_task::tick _do_req num:127, ftds_num:127, node_num:0
+19:49:04-377 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:04-480 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:04-568 x_chan_task::_calc_flow_except 671661,recv_busy_precent:86, cache state:5
+19:49:04-569 x_chan_task::_check_for_req calc_flow:671661, flow_expect:705244, time_factor:105
+19:49:04-569 x_chan_task::tick _do_re_req num:26
+19:49:04-570 x_chan_task::tick _do_req num:124, ftds_num:124, node_num:0
+19:49:04-585 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:04-691 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:04-777 x_chan_task::_check_for_req calc_flow:671661, flow_expect:698527, time_factor:104
+19:49:04-777 x_chan_task::tick _do_re_req num:24
+19:49:04-777 x_chan_task::tick _do_req num:125, ftds_num:125, node_num:0
+19:49:04-801 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:04-903 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:04-989 x_chan_task::_check_for_req calc_flow:671661, flow_expect:711960, time_factor:106
+19:49:04-989 x_chan_task::tick _do_re_req num:12
+19:49:04-990 x_chan_task::tick _do_req num:139, ftds_num:139, node_num:0
+19:49:05-006 x_ts_live_http_parser::handle_cache_ctrl in cache,slow send pack id:3690378342
+19:49:05-006 x_ts_live_http_parser::handle_cache_ctrl out cache have data pack id:3690378342
+19:49:05-009 x_ts_live_http_parser::_parse_ts_pcr pcr_base:27255, byterate:3101kbps
+19:49:05-021 x_ts_live_http_parser::handle_cache_ctrl in cache, pack id:3690380311
+19:49:05-021 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:05-112 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:05-189 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690381551
+19:49:05-191 x_chan_task::_calc_flow_except 606395,recv_busy_precent:92, cache state:5
+19:49:05-191 x_chan_task::_check_for_req calc_flow:606395, flow_expect:612458, time_factor:101
+19:49:05-192 x_chan_task::tick _do_re_req num:19
+19:49:05-215 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:05-323 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:05-385 x_chan_task::_check_for_req calc_flow:606395, flow_expect:606395, time_factor:100
+19:49:05-385 x_chan_task::tick _do_re_req num:11
+19:49:05-389 x_chan_task::tick _do_req num:118, ftds_num:118, node_num:0
+19:49:05-427 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:05-527 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:05-588  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:49:05-588  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:49:05-589  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:49:05-589  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:49:05-591 x_chan_task::_check_for_req calc_flow:606395, flow_expect:624586, time_factor:103
+19:49:05-591 x_chan_task::tick _do_re_req num:21
+19:49:05-591 x_chan_task::_check_for_req, req begin:3690381670-3690381781,nodes:8
+19:49:05-592 x_chan_task::tick _do_req num:112, ftds_num:112, node_num:0
+19:49:05-592 x_chan_task::_check_for_buf clear small than 3690376350
+19:49:05-592 _check_for_monitor userid:
+19:49:05-636 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:05-744 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:05-803 x_chan_task::_calc_flow_except 590720,recv_busy_precent:89, cache state:5
+19:49:05-803 x_chan_task::_check_for_req calc_flow:590720, flow_expect:626163, time_factor:106
+19:49:05-804 x_chan_task::tick _do_re_req num:28
+19:49:05-807 x_chan_task::tick _do_req num:105, ftds_num:105, node_num:0
+19:49:05-809 x_chan_task::recv_chan_data_range_rep range 3688968118-3689007192, size:39074, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:49:05-814 x_chan_task::recv_chan_data_range_rep range 3686924975-3686962437, size:37462, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:49:05-845 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:05-948 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:06-014 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690381886
+19:49:06-017 x_chan_task::_check_for_req calc_flow:590720, flow_expect:626163, time_factor:106
+19:49:06-017 x_chan_task::tick _do_re_req num:3
+19:49:06-018 x_chan_task::tick _do_req num:130, ftds_num:130, node_num:0
+19:49:06-048 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:06-151 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:06-245 x_chan_task::_check_for_req calc_flow:590720, flow_expect:673420, time_factor:114
+19:49:06-246 x_chan_task::tick _do_re_req num:21
+19:49:06-248 x_chan_task::tick _do_req num:122, ftds_num:122, node_num:0
+19:49:06-261 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:06-372 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:06-466 x_chan_task::_calc_flow_except 562193,recv_busy_precent:100, cache state:5
+19:49:06-466 x_chan_task::_check_for_req calc_flow:562193, flow_expect:618412, time_factor:110
+19:49:06-466 x_chan_task::tick _do_re_req num:17
+19:49:06-467 x_chan_task::tick _do_req num:115, ftds_num:115, node_num:0
+19:49:06-475 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:06-584 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:06-669 x_chan_task::_check_for_req calc_flow:562193, flow_expect:567814, time_factor:101
+19:49:06-670 x_chan_task::tick _do_re_req num:22
+19:49:06-671 x_chan_task::tick _do_req num:99, ftds_num:99, node_num:0
+19:49:06-692 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:06-793 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:06-878 x_chan_task::_check_for_req calc_flow:562193, flow_expect:590302, time_factor:105
+19:49:06-879 x_chan_task::tick _do_re_req num:12
+19:49:06-880 x_chan_task::tick _do_req num:114, ftds_num:114, node_num:0
+19:49:06-899 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:07-002 x_ts_live_http_parser::handle_cache_ctrl in cache,slow send pack id:3690380311
+19:49:07-002 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:07-091 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690382466
+19:49:07-094 x_chan_task::_calc_flow_except 562193,recv_busy_precent:99, cache state:5
+19:49:07-094 x_chan_task::_check_for_req calc_flow:562193, flow_expect:607168, time_factor:108
+19:49:07-095 x_chan_task::tick _do_re_req num:13
+19:49:07-097 x_chan_task::tick _do_req num:116, ftds_num:116, node_num:0
+19:49:07-112 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:07-218 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:07-307 x_chan_task::_check_for_req calc_flow:562193, flow_expect:595924, time_factor:106
+19:49:07-308 x_chan_task::tick _do_re_req num:18
+19:49:07-309 x_chan_task::tick _do_req num:109, ftds_num:109, node_num:0
+19:49:07-319 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:07-429 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:07-526 x_chan_task::_check_for_req calc_flow:562193, flow_expect:612790, time_factor:109
+19:49:07-526 x_chan_task::tick _do_re_req num:15
+19:49:07-529 x_chan_task::tick _do_req num:115, ftds_num:115, node_num:0
+19:49:07-530 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:07-632 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:07-733  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:49:07-734  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:49:07-734  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:49:07-734  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:49:07-738 x_chan_task::_calc_flow_except 562193,recv_busy_precent:98, cache state:5
+19:49:07-738 x_chan_task::_check_for_req calc_flow:562193, flow_expect:595924, time_factor:106
+19:49:07-738 x_chan_task::tick _do_re_req num:11
+19:49:07-739 x_chan_task::tick _do_req num:116, ftds_num:116, node_num:0
+19:49:07-739 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:07-844 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:07-930 x_chan_task::_check_for_req calc_flow:562193, flow_expect:562193, time_factor:100
+19:49:07-931 x_chan_task::tick _do_re_req num:11
+19:49:07-933 x_chan_task::tick _do_req num:109, ftds_num:109, node_num:0
+19:49:07-944 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:07-949 x_chan_task::recv_chan_data_range_rep range 3690376512-3690414878, size:38366, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:49:07-949 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690379197(3690376512)-3690414852, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:49:07-949 x_chan_task::recv_chan_data_range_rep range 3690376512-3690414878, size:38366, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:49:07-949 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690379197(3690376512)-3690414878, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:49:07-954 x_chan_task::recv_chan_data_range_rep range 3686925460-3686963826, size:38366, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:49:07-954 x_chan_task::recv_chan_data_range_rep range 3688968826-3689007192, size:38366, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:49:08-047 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:08-127 x_chan_task::_check_for_node, keep_alive chan_id:68a6abe2000dd5d9a5012600500a1279, fccs_ips:108.181.32.169:44117
+19:49:08-129 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690383031
+19:49:08-131 x_chan_task::_check_for_req calc_flow:562193, flow_expect:562193, time_factor:100
+19:49:08-132 x_chan_task::tick _do_re_req num:12
+19:49:08-158 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:08-229 x_chan_task::_check_for_buf clear small than 3690376700
+19:49:08-263 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:08-321 x_chan_task::_calc_flow_except 562193,recv_busy_precent:100, cache state:5
+19:49:08-321 x_chan_task::_check_for_req calc_flow:562193, flow_expect:562193, time_factor:100
+19:49:08-321 x_chan_task::tick _do_re_req num:13
+19:49:08-323 x_chan_task::tick _do_req num:107, ftds_num:107, node_num:0
+19:49:08-373 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:08-476 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:08-529 x_chan_task::_check_for_req calc_flow:562193, flow_expect:584680, time_factor:104
+19:49:08-530 x_chan_task::tick _do_re_req num:9
+19:49:08-530 x_chan_task::tick _do_req num:115, ftds_num:115, node_num:0
+19:49:08-584 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:08-685 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:08-735 x_chan_task::_check_for_req calc_flow:562193, flow_expect:573436, time_factor:102
+19:49:08-736 x_chan_task::tick _do_re_req num:7
+19:49:08-738 x_chan_task::tick _do_req num:115, ftds_num:115, node_num:0
+19:49:08-794 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:08-899 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:08-957 x_chan_task::_calc_flow_except 617794,recv_busy_precent:91, cache state:5
+19:49:08-957 x_chan_task::_check_for_req calc_flow:617794, flow_expect:685751, time_factor:111
+19:49:08-957 x_chan_task::tick _do_re_req num:3
+19:49:08-958 x_chan_task::tick _do_req num:143, ftds_num:143, node_num:0
+19:49:09-006 x_ts_live_http_parser::handle_cache_ctrl in cache,slow send pack id:3690380312
+19:49:09-007 x_ts_live_http_parser::handle_cache_ctrl out cache have data pack id:3690380312
+19:49:09-008 x_ts_live_http_parser::_parse_ts_pcr pcr_base:27261, byterate:2555kbps
+19:49:09-008 x_ts_live_http_parser::_notify_byterate byterate:319396, is_force:1
+19:49:09-008 x_chan_task::_reset_byterate(in) byterate:2555kbps
+19:49:09-008 x_chan_task::_reset_byterate(out) byterate:3209kbps, cache_state:5
+19:49:09-025 x_ts_live_http_parser::handle_cache_ctrl in cache, pack id:3690382702
+19:49:09-025 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:09-111 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:09-164 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690383511
+19:49:09-167 x_chan_task::_check_for_req calc_flow:617794, flow_expect:648683, time_factor:105
+19:49:09-168 x_chan_task::tick _do_re_req num:19
+19:49:09-169 x_chan_task::tick _do_req num:119, ftds_num:119, node_num:0
+19:49:09-212 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:09-324 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:09-404 x_chan_task::_check_for_req calc_flow:617794, flow_expect:728996, time_factor:118
+19:49:09-404 x_chan_task::tick _do_re_req num:13
+19:49:09-406 x_chan_task::tick _do_req num:142, ftds_num:142, node_num:0
+19:49:09-432 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:09-543 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:09-616 x_chan_task::_calc_flow_except 534926,recv_busy_precent:95, cache state:5
+19:49:09-616 x_chan_task::_check_for_req calc_flow:534926, flow_expect:567021, time_factor:106
+19:49:09-616 x_chan_task::tick _do_re_req num:12
+19:49:09-617 x_chan_task::tick _do_req num:109, ftds_num:109, node_num:0
+19:49:09-649 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:09-752 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:09-829  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:49:09-830  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:49:09-830  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:49:09-831  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:49:09-834 x_chan_task::_check_for_req calc_flow:534926, flow_expect:583069, time_factor:109
+19:49:09-835 x_chan_task::tick _do_re_req num:9
+19:49:09-835 x_chan_task::tick _do_req num:115, ftds_num:115, node_num:0
+19:49:09-852 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:09-961 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:10-039 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690383996
+19:49:10-043 x_chan_task::_check_for_req calc_flow:534926, flow_expect:556323, time_factor:104
+19:49:10-043 x_chan_task::tick _do_re_req num:7
+19:49:10-044 x_chan_task::tick _do_req num:111, ftds_num:111, node_num:0
+19:49:10-045 x_chan_task::recv_chan_data_range_rep range 3690376512-3690414878, size:38366, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:49:10-046 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690379197(3690376512)-3690414878, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:49:10-046 x_chan_task::recv_chan_data_range_rep range 3690376512-3690414878, size:38366, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:49:10-046 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690379197(3690376512)-3690414878, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:49:10-047 x_node_policy::recv_node_ping_rep, from:173.208.244.226:35090, rtti:213, min_rtti:211 ,now rtti:215
+19:49:10-047 x_chan_task::recv_chan_data_range_rep range 3686925460-3686963826, size:38366, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:49:10-047 x_node_policy::recv_node_ping_rep, from:108.181.24.141:35026, rtti:222, min_rtti:222 ,now rtti:217
+19:49:10-049 x_chan_task::recv_chan_data_range_rep range 3688968826-3689007192, size:38366, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:49:10-062 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:10-162 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:10-247 x_chan_task::_calc_flow_except 534926,recv_busy_precent:96, cache state:5
+19:49:10-247 x_chan_task::_check_for_req calc_flow:534926, flow_expect:540275, time_factor:101
+19:49:10-248 x_chan_task::tick _do_re_req num:14
+19:49:10-249 x_chan_task::tick _do_req num:101, ftds_num:101, node_num:0
+19:49:10-269 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:10-375 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:10-457 x_chan_task::_check_for_req calc_flow:534926, flow_expect:561672, time_factor:105
+19:49:10-458 x_chan_task::tick _do_re_req num:12
+19:49:10-460 x_chan_task::tick _do_req num:108, ftds_num:108, node_num:0
+19:49:10-476 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:10-584 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:10-659 x_chan_task::_check_for_req calc_flow:534926, flow_expect:540275, time_factor:101
+19:49:10-659 x_chan_task::tick _do_re_req num:12
+19:49:10-659 x_chan_task::tick _do_req num:103, ftds_num:103, node_num:0
+19:49:10-685 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:10-796 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:10-870 x_node_policy::clear_node check_pos:3690376756
+19:49:10-873 x_chan_task::_calc_flow_except 534926,recv_busy_precent:100, cache state:5
+19:49:10-874 x_chan_task::_check_for_req calc_flow:534926, flow_expect:572370, time_factor:107
+19:49:10-874 x_chan_task::_check_for_dbg id:68a6abe2000dd5d9a5012600500a1279, sub_file_type:ts, factory:device/P2P_fanya_c2micro_android_v4.0_2016mc_uplog_20161229_02:40:22
+19:49:10-874 x_chan_task::_check_for_dbg play:3690382702,xy:3690379197-3690414878,parent(r):3690379197-3690414878,req_id:3690384419
+19:49:10-874 x_chan_task::_check_for_dbg cache state:5, work state:-2,parent(v):3690379197-3690414312,0.0.0.0:0
+19:49:10-874 x_chan_task::_check_for_dbg layer:0,in_parare:1,up_busy:0|0,live:29,play_block(in/out):1:-1,too_fast:-1
+19:49:10-874 x_chan_task::_check_for_dbg do_req 3690383492[3]-3690384419,size:181
+19:49:10-874 x_node_policy::dbg_print size:3 
+19:49:10-874 total req  557packs/s 4193kbps total 16194KB
+19:49:10-874 total recv 544packs/s 4268kbps total 15134KB(15134,0) send 0packs/s 0kbps total 0KB
+19:49:10-874 total busy 0packs/s 0kbps toomore 0packs/s 0kbps total 0KB
+19:49:10-874 node addr:173.208.244.226:35090,rtti/min:213/211,range:3690379197-3690414878,layer:0,score:10608,total(r,s):15134,0
+19:49:10-874 req  4481kbps, recv 4249kbps, busy 0kbps, send 0kbps, max_recv:4877kbps, max_send_recv:245kbps
+19:49:10-874 data id:7d08b5584431448318e63ca6ace93dfb
+19:49:10-874 x_chan_block::dbg_print used_block:7538, alloc_block:18204, alloc_size:19MB, max_size:20MB
+19:49:10-874 x_live_cache::dbg_print total pak:15803, used pak:7538, write_id:0
+19:49:10-874 x_range_state::dbg_print size:39
+19:49:10-874 range 3690376701-3690383491,state 1,size:6791
+19:49:10-874 range 3690383493-3690383717,state 1,size:225
+19:49:10-874 range 3690383719-3690383739,state 1,size:21
+19:49:10-874 range 3690383741-3690383831,state 1,size:91
+19:49:10-874 range 3690383833-3690383882,state 1,size:50
+19:49:10-874 range 3690383885-3690383890,state 1,size:6
+19:49:10-874 range 3690383892-3690383893,state 1,size:2
+19:49:10-874 range 3690383895-3690383897,state 1,size:3
+19:49:10-874 range 3690383900-3690383916,state 1,size:17
+19:49:10-874 range 3690383919-3690383922,state 1,size:4
+19:49:10-874 range 3690383924-3690383939,state 1,size:16
+19:49:10-874 range 3690383941-3690383947,state 1,size:7
+19:49:10-874 range 3690383949-3690383975,state 1,size:27
+19:49:10-874 range 3690383977-3690383996,state 1,size:20
+19:49:10-874 range 3690383998-3690384056,state 1,size:59
+19:49:10-874 range 3690384058-3690384059,state 1,size:2
+19:49:10-874 range 3690384061-3690384067,state 1,size:7
+19:49:10-874 range 3690384069-3690384079,state 1,size:11
+19:49:10-874 range 3690384081-3690384141,state 1,size:61
+19:49:10-874 range 3690384143-3690384146,state 1,size:4
+19:49:10-874 range 3690384148-3690384148,state 1,size:1
+19:49:10-874 range 3690384150-3690384158,state 1,size:9
+19:49:10-874 range 3690384160-3690384168,state 1,size:9
+19:49:10-874 range 3690384171-3690384175,state 1,size:5
+19:49:10-874 range 3690384177-3690384192,state 1,size:16
+19:49:10-874 range 3690384194-3690384194,state 1,size:1
+19:49:10-874 range 3690384196-3690384204,state 1,size:9
+19:49:10-875 range 3690384206-3690384209,state 1,size:4
+19:49:10-875 range 3690384211-3690384213,state 1,size:3
+19:49:10-875 range 3690384215-3690384219,state 1,size:5
+19:49:10-875 range 3690384221-3690384235,state 1,size:15
+19:49:10-875 range 3690384238-3690384238,state 1,size:1
+19:49:10-875 range 3690384240-3690384244,state 1,size:5
+19:49:10-875 range 3690384246-3690384248,state 1,size:3
+19:49:10-875 range 3690384250-3690384259,state 1,size:10
+19:49:10-875 range 3690384261-3690384270,state 1,size:10
+19:49:10-875 range 3690384272-3690384272,state 1,size:1
+19:49:10-875 range 3690384274-3690384276,state 1,size:3
+19:49:10-875 range 3690384278-3690384281,state 1,size:4
+19:49:10-876 x_chan_task::tick _do_re_req num:7
+19:49:10-876 x_chan_task::_check_for_req, req begin:3690384420-3690384534,nodes:8
+19:49:10-876 x_chan_task::tick _do_req num:115, ftds_num:115, node_num:0
+19:49:10-876 x_chan_task::_check_for_buf clear small than 3690376700
+19:49:10-876 _check_for_monitor userid:
+19:49:10-901 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:11-009 x_ts_live_http_parser::handle_cache_ctrl in cache,slow send pack id:3690382702
+19:49:11-011 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:11-079 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690384534
+19:49:11-080 x_chan_task::_check_for_req calc_flow:534926, flow_expect:550973, time_factor:103
+19:49:11-080 x_chan_task::tick _do_re_req num:12
+19:49:11-080 x_chan_task::tick _do_req num:105, ftds_num:105, node_num:0
+19:49:11-109 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:11-221 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:11-289 x_chan_task::_check_for_req calc_flow:534926, flow_expect:556323, time_factor:104
+19:49:11-289 x_chan_task::tick _do_re_req num:20
+19:49:11-290 x_chan_task::tick _do_req num:98, ftds_num:98, node_num:0
+19:49:11-329 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:11-445 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:11-501 x_chan_task::_calc_flow_except 536745,recv_busy_precent:98, cache state:5
+19:49:11-501 x_chan_task::_check_for_req calc_flow:536745, flow_expect:568949, time_factor:106
+19:49:11-502 x_chan_task::tick _do_re_req num:10
+19:49:11-503 x_chan_task::tick _do_req num:111, ftds_num:111, node_num:0
+19:49:11-543 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:11-650 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:11-708 x_chan_task::_check_for_req calc_flow:536745, flow_expect:552847, time_factor:103
+19:49:11-709 x_chan_task::tick _do_re_req num:16
+19:49:11-711 x_chan_task::tick _do_req num:102, ftds_num:102, node_num:0
+19:49:11-754 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:11-862 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:11-912  x_chan_protocol::query_chan_data_range ips:69.30.202.122:35038
+19:49:11-912  x_chan_protocol::query_chan_data_range ips:108.181.24.141:35026
+19:49:11-912  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:49:11-912  x_chan_protocol::query_chan_data_range ips:173.208.244.226:35090
+19:49:11-916 x_chan_task::_check_for_req calc_flow:536745, flow_expect:558214, time_factor:104
+19:49:11-917 x_chan_task::tick _do_re_req num:11
+19:49:11-917 x_chan_task::tick _do_req num:108, ftds_num:108, node_num:0
+19:49:11-973 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:12-075 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:12-112 x_chan_task::_check_for_chanstate getting_node_list ..., pos:3690385058
+19:49:12-113 x_chan_task::_calc_flow_except 540453,recv_busy_precent:91, cache state:5
+19:49:12-113 x_chan_task::_check_for_req calc_flow:540453, flow_expect:540453, time_factor:100
+19:49:12-113 x_chan_task::tick _do_re_req num:8
+19:49:12-125 x_chan_task::recv_chan_data_range_rep range 3690377052-3690414878, size:37826, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:49:12-125 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690379699(3690377052)-3690414878, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:49:12-125 x_chan_task::recv_chan_data_range_rep range 3690377052-3690414878, size:37826, time_shift:0, data_id:7d08b5584431448318e63ca6ace93dfb, ips:173.208.244.226:35090
+19:49:12-125 x_node_policy::recv_chan_data_range_rep, from:173.208.244.226:35090, range:3690379699(3690377052)-3690414878, node_layer:0, data id:7d08b5584431448318e63ca6ace93dfb
+19:49:12-129 x_chan_task::recv_chan_data_range_rep range 3688968826-3689007192, size:38366, time_shift:0, data_id:c589d6d669891a1aea55dbbfddb2f1e9, ips:69.30.202.122:35038
+19:49:12-162 x_chan_task::recv_chan_data_range_rep range 3686925631-3686963826, size:38195, time_shift:0, data_id:1258847fca43026097ebe303f14e9844, ips:108.181.24.141:35026
+19:49:12-183 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:12-292 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:12-303 x_chan_task::_check_for_req calc_flow:540453, flow_expect:540453, time_factor:100
+19:49:12-304 x_chan_task::tick _do_re_req num:10
+19:49:12-304 x_chan_task::tick _do_req num:105, ftds_num:105, node_num:0
+19:49:12-399 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:12-493 x_chan_task::_check_for_req calc_flow:540453, flow_expect:540453, time_factor:100
+19:49:12-493 x_chan_task::tick _do_re_req num:6
+19:49:12-493 x_chan_task::tick _do_req num:109, ftds_num:109, node_num:0
+19:49:12-502 x_chan_task::recv_query_node_layer_rep node_layer:0, addr:108.181.32.169:44117
+19:49:12-502 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:12-609 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:12-710 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:12-724 x_chan_task::_calc_flow_except 540329,recv_busy_precent:99, cache state:5
+19:49:12-724 x_chan_task::_check_for_req calc_flow:540329, flow_expect:621378, time_factor:115
+19:49:12-724 x_chan_task::tick _do_re_req num:15
+19:49:12-726 x_chan_task::tick _do_req num:117, ftds_num:117, node_num:0
+19:49:12-810 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:12-920 x_chan_task::_check_for_req calc_flow:540329, flow_expect:540329, time_factor:100
+19:49:12-920 x_chan_task::tick _do_re_req num:1
+19:49:12-921 x_chan_task::tick _do_req num:114, ftds_num:114, node_num:0
+19:49:12-921 x_ts_live_http_parser::_handle_data handle_cache_ctrl( pchan_read )
+19:49:13-030 x_ts_live_http_parser::handle_cache_ctrl in cache,slow send pack id:3690382703
+19:49:13-030 x_ts_live_http_parser::handle_cache_ctrl out cache have data pack id:3690382703
+19:49:13-032 x_ts_live_http_parser::_parse_ts_pcr pcr_base:27267, byterate:2984kbps
+19:49:13-032 x_ts_live_http_parser::_notify_byterate byterate:373099, is_force:1
+19:49:13-032 x_chan_task::_reset_byterate(in) byterate:2984kbps
+19:49:13-032 x_chan_task::_reset_byterate(out) byterate:3164kbps, cache_state:5
+19:49:13-034 x_ts_live_http_parser::_handle_data _send_packet() != 0_send_packet() != 0 m_cur_packet_id:3690382783
+19:49:13-040 x_tcp_handler::handle_input close, fd:125,error:0
+19:49:13-040 x_tcp_handler::handle_close fd:125
+19:49:13-040 x_live_http_parser::~x_live_http_parser fd:125, impl:x_ts_live_http_parser, send_bytes:13495252
+19:49:13-040 x_tcp_handler::~x_tcp_handler
+19:49:13-078 Java_com_forcetech_android_ForceTV_stop
+19:49:13-078 forcetv_stop
+19:49:13-087 x_net_task run exit 0x359e
+19:49:14-078 forcetv_exit 
+19:49:14-078 _forcetv_exit
+19:49:14-078 _forcetv_exit net_task::close()
+19:49:14-078 _forcetv_exit wait_task::close()
+19:49:14-078 _forcetv_exit chan_block::is_instance()
+19:49:14-093 _forcetv_exit chan_block::close()
+19:49:14-093 _forcetv_exit J_OS::uninit_socket()
+19:49:14-093 _forcetv_exit x_log::close()
