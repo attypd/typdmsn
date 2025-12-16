@@ -322,15 +322,17 @@ LOOK,P2p://ns2.hellotvvod.com:9906/5f6f13fd000df5af9efa871e6c7b3ce4.ts#P2p://51.
 潘多拉玩美,P2p://ns2.hellotvvod.com:9906/5f89837800056df62ebfac9c6a20310d.ts
 惊艳电影台,P2p://ns2.hellotvvod.com:9906/5f898378000aecef2ebfae03144d6e94.ts
 松视2台,P2p://ns2.hellotvvod.com:9906/5f89837900017eef2ebfaf7a483e2b6a.ts
-Sing新加坡,#genre#
-Channel 8,p3p://108.181.32.169:42803/642606be0002dd54ede3d8b40d6c04dc
-Channel 8(b),p3p://108.181.32.169:42803/642605590007b381edde676b090919b0
-Channel 5,p3p://108.181.32.169:42803/642606de000ae43dede457c221b81de1
-Channel 5(b),p3p://108.181.32.169:42803/642606cc000ea9beede41269137f162d
-Channel u,p3p://108.181.32.169:42803/642606fa000535beede4c3ae3202280b
-Channel u(b),p3p://108.181.32.169:42803/642606ee00041309ede4948330973faf
-Suria,p3p://108.181.32.169:42803/642607350004432dede5a9e74ab33b04
-Suria(b.),p3p://108.181.32.169:42803/642607270006fbf5ede573e945ee3a6c
-Vasantham,p3p://108.181.32.169:42803/6426075f0008f378ede64f2a028a268e
-Vasantham(b),p3p://108.181.32.169:42803/64260747000040bcede5ef305d766294
-CNA,p3p://108.181.32.169:42803/6426077a00093ea7ede6b8b64d6d4c6e
+台湾频道,#genre#
+驚艷,https://ppt.cc/fmpKVx
+潘朵拉完美,https://ppt.cc/fgXIWx
+松視1台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
+松視2台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
+松視3台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
+极限,http://pull-skycorp.speedws.com:80/live/51c0b0a02923d2352346c3a27adb0096.flv
+happy,http://pull-skycorp.speedws.com:80/live/1fcbd2acce3777f488bf31917ba1f7a9.flv
+香蕉,http://pull-skycorp.speedws.com:80/live/30eee6f0603f097c0bc62049fa6af1b7.flv
+惊艳,http://pull-skycorp.speedws.com:80/live/8f2565ee325cb612e545c88f74a38158.flv
+潘多拉,http://pull-skycorp.speedws.com:80/live/7f92f24c7097a5cba5f1232136681a3a.flv
+彩虹电影,http://pull-skycorp.speedws.com:80/live/53acf537c23830719bacf6a0cf5ab722.flv
+彩虹k,http://pull-skycorp.speedws.com:80/live/4f7cb45a62f2c165ffea4b66c1f2ecff.flv
+彩虹e,http://pull-skycorp.speedws.com:80/live/ae156da941cdb8154492751c3477359e.flv
