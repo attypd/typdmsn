@@ -146,7 +146,7 @@ CCTV6,http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv6
 澳门Mac,http://php.jdshipin.com/PLTV/iptv.php?id=as
 澳视澳门,http://php.jdshipin.com/PLTV/iptv.php?id=asam
 星空台湾,#genre#
-温馨提醒:设置超时30秒最佳,https://i.uik.cc/view.php/f8576ff37fa8b87696b6a0db283fd201.mp4
+温馨提醒:设置超时30秒最佳,https://i.uik.cc/view.php/f8576ff37fa8b87696b6a0db283fd20.mp4
 中天新闻,http://rihou.cc:555/tv/[Hk]中天新聞
 中天新闻,http://dungou.szius.com:8080/live/yifatv-ztxw01.flv
 寰宇新闻,http://rihou.cc:555/tv/[Hk]寰宇新闻
@@ -216,76 +216,60 @@ NatGeo Wild
 唯心电视,https://5ddce30eb4b55.streamlock.net/wxtv/wxtvnow.stream/playlist.m3u8 
 唯心电视,http://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8
 星空港台,#genre#
-凤凰中文(高清),http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=Bcj9vB&tk=jcmngPC64ClK
-凤凰资讯(高清),http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=6BIgdW&tk=jcmngPC64ClK
-凤凰香港(高清),http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=MlbQNj&tk=jcmngPC64ClK
-凤凰中文,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=C3Z3Bx&tk=jcmngPC64ClK
-凤凰资讯,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=xe9WP1&tk=jcmngPC64ClK
-凤凰香港,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=8LtgUj&tk=jcmngPC64ClK
-港台電視 31,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=boRc4f&tk=jcmngPC64ClK
-翡翠台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=yuZQDx&tk=jcmngPC64ClK
-TVB Plus,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=TEFsca&tk=jcmngPC64ClK
-無綫新聞台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=xG4W2c&tk=jcmngPC64ClK
-明珠台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=A01l9G&tk=jcmngPC64ClK
-HOY 國際財經台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=EaqQpm&tk=jcmngPC64ClK
-HOY TV,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=k0fExZ&tk=jcmngPC64ClK
-HOY 資訊台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=mDoDDA&tk=jcmngPC64ClK
-ViuTVsix,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=qWTc79&tk=jcmngPC64ClK
-ViuTV,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=zTi8xJ&tk=jcmngPC64ClK
-Now直播台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=YK78Pn&tk=jcmngPC64ClK
-Now新聞台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=4N0VyB&tk=jcmngPC64ClK
-Now財經台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=740BpY&tk=jcmngPC64ClK
-NowSports,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=ypoToa&tk=jcmngPC64ClK
-翡翠剧集台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=MABZNs&tk=jcmngPC64ClK
-明珠剧集台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=gczzeI&tk=jcmngPC64ClK
-黄金翡翠台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=Zjtxbi&tk=jcmngPC64ClK
-美亚电影(台湾),http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=0QmwGT&tk=jcmngPC64ClK
-Now星影台(国语),http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=tWBqt5&tk=jcmngPC64ClK
-Now爆谷台(国语),http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=sAlvKS&tk=jcmngPC64ClK
-TVB功夫(国语),http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=9D5KSp&tk=jcmngPC64ClK
-TVB星河(国语),http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=kJoW9j&tk=jcmngPC64ClK
-TVB生活台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=OGEGTZ&tk=jcmngPC64ClK
-TVB金曲,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=NmA9Bv&tk=jcmngPC64ClK
-TVB奖门人,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=gbgwlS&tk=jcmngPC64ClK
-黄金华剧台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=PUxNe2&tk=jcmngPC64ClK
-PopC电影,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=uMFqam&tk=jcmngPC64ClK
-中旺电视,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=EWX20E&tk=jcmngPC64ClK
-中视新闻,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=d3Lwul&tk=jcmngPC64ClK
-寰宇新闻,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=xNL2QD&tk=jcmngPC64ClK
-中天新聞,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=QWD9GU&tk=jcmngPC64ClK
-TVBS,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=1IXyDV&tk=jcmngPC64ClK
+翡翠台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=kBXBw8&tk=EuWQIWwVA7n1
+Now体育台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=i7qcMb&tk=0t5zXj74DTAa
+Now星影台,http://rihou.cc:555/tv/[Bx]Now星影
+Now爆谷台,http://rihou.cc:555/tv/[Bx]Now爆谷
+Popc,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=1h57UQ&tk=EuWQIWwVA7n1
 
-香港卫视,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=O9B8Y5&tk=jcmngPC64ClK
-莲花卫视,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=pdanps&tk=jcmngPC64ClK
-环球电视台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=Es58ff&tk=jcmngPC64ClK
-香港环球卫视,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=z3oZMq&tk=jcmngPC64ClK
-亚洲卫视,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=YOdtVo&tk=jcmngPC64ClK
-亚太第一卫视,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=yW3P3E&tk=jcmngPC64ClK
-华文卫视,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=uE13SS&tk=jcmngPC64ClK
-1905电影,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=WynvwU&tk=jcmngPC64ClK
-1905环球,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=cMyyiV&tk=jcmngPC64ClK
-重温经典,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=p6e92d&tk=jcmngPC64ClK
-Y+剧场,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=wLTQad&tk=jcmngPC64ClK
-无线新闻台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=6Qcbt9&tk=jcmngPC64ClK
-翡翠台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=CsGyHZ&tk=jcmngPC64ClK
-无线华丽台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=2MavgO&tk=jcmngPC64ClK
-明珠台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=natYz5&tk=jcmngPC64ClK
-星河,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=gBdOzf&tk=jcmngPC64ClK
-娱乐新闻台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=vugnFt&tk=jcmngPC64ClK
-无线千禧台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=GYiQjC&tk=jcmngPC64ClK
-RTHK-31,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=0BjL02&tk=jcmngPC64ClK
-RTHK-32,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=fgEr9l&tk=jcmngPC64ClK
-VIUTV,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=fOyi6z&tk=jcmngPC64ClK
-VIU6TV,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=fIesIn&tk=jcmngPC64ClK
-美亚电影(香港),http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=aFRBbP&tk=jcmngPC64ClK
-天映频道,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=GlD9Cv&tk=jcmngPC64ClK
-天映经典,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=t6V20y&tk=jcmngPC64ClK
-Astr爱奇艺,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=vfbBdJ&tk=jcmngPC64ClK
-AstrQJ,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=LMv2E7&tk=jcmngPC64ClK
-Astr-AoD,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=Lnk6Si&tk=jcmngPC64ClK
-AeC,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=CrKfS3&tk=jcmngPC64ClK
-Astr,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=YSz1hn&tk=jcmngPC64ClK
-TVBPlus,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=bs6dPB&tk=jcmngPC64ClK
+
+TVB 无线功夫国语,http://rihou.cc:555/tv/[Hk]无线功夫
+无线功夫粤,http://rihou.cc:555/tv/[Pd]无线功夫
+
+
+HUB娱家台,http://rihou.cc:555/tv/[Hk]HUB娱家
+HUB都会台,http://rihou.cc:555/tv/[Hk]HUB都会
+
+TVB明珠台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=0kKsxj&tk=EuWQIWwVA7n1
+无线新闻台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=bfIYXv&tk=EuWQIWwVA7n1
+TVB星河,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=VJWJ87&tk=EuWQIWwVA7n1
+HOY资讯台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=WXgzw5&tk=aeFo3Lxm1DH1#http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=26oyQ0&tk=EuWQIWwVA7n1
+TVB生活台,P2p://starvod.xyz:19806/f4650e7cb54645f79ea52469b84ef3c4.ts
+HOYTV,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=gEK75H&tk=EuWQIWwVA7n1
+美亚电影,http://tl.061833.xyz/tl/null-5#http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=YUJ2Ne&tk=EuWQIWwVA7n1
+华丽翡翠台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=YEuB5l&tk=EuWQIWwVA7n1
+Now新闻台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=8dQtqz&tk=EuWQIWwVA7n1
+Now新闻台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=hobLsE&tk=EuWQIWwVA7n1
+TVB娱乐新闻台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=LRplhd&tk=EuWQIWwVA7n1
+星空卫视,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=Bd1aIz&tk=EuWQIWwVA7n1
+星空音乐,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=Z2F9tK&tk=EuWQIWwVA7n1
+Now赛车,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=lQoCrL&tk=EuWQIWwVA7n1
+天映频道,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=J0eVbj&tk=EuWQIWwVA7n1
+Viutv,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=gCuyOc&tk=EuWQIWwVA7n1
+天映经典,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=r4NJCe&tk=EuWQIWwVA7n1
+Viutv 6,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=KHvC8R&tk=EuWQIWwVA7n1
+TVB Plus,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=xvUbhs&tk=EuWQIWwVA7n1
+港台31,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=73BH78&tk=EuWQIWwVA7n1
+港台32,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=KBbDJN&tk=EuWQIWwVA7n1
+凤凰中文,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=nfTarK&tk=EuWQIWwVA7n1
+凤凰资讯,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=3DjwET&tk=EuWQIWwVA7n1
+凤凰香港,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=5icOTx&tk=EuWQIWwVA7n1
+有线18,P2p://starvod.xyz:19806/72740144b3744949b05bd0220bd4c231.ts
+亞洲新闻台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=vvt3PJ&tk=EuWQIWwVA7n1
+黄金翡翠台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=YDObuw&tk=EuWQIWwVA7n1
+千禧经典台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=9sKwi6&tk=EuWQIWwVA7n1
+NOW英超1台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=OnKAal&tk=EuWQIWwVA7n1
+NOW星影台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=0uNhlb&tk=EuWQIWwVA7n1
+NOW爆谷台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=x8KJN0&tk=EuWQIWwVA7n1
+香港卫视,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=N0GjsU&tk=EuWQIWwVA7n1
+亚洲卫视,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=3ki19A&tk=EuWQIWwVA7n1
+环球电视台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=zSSoku&tk=EuWQIWwVA7n1
+Astro AOD,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=Tw2plm&tk=EuWQIWwVA7n1
+Astro AEC,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=PanOoK&tk=EuWQIWwVA7n1
+爱奇艺,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=q3aeXl&tk=EuWQIWwVA7n1
+Astro QJ,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=TFX0Pa&tk=EuWQIWwVA7n1
+Astro欢喜台,http://kkk.888.3116598.xyz/api.php?n=Bpjt&id=NpVAGh&tk=EuWQIWwVA7n1
+
 星空午夜,#genre#
 极限电影台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=kLkQuf&tk=jcmngPC64ClK
 彩虹K台,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=oz0oRm&tk=jcmngPC64ClK
