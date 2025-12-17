@@ -3,14 +3,15 @@
 ❤️湖南卫视4K,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8 
 ❤️江苏卫视4K,http://218.206.221.78:90/hls/81/index.m3u8
 ❤️浙江卫视4K,https://play-qukan.cztv.com/live/1758879019692345.m3u8
-❤️东方卫视4K,https://migu.188766.xyz/?migutoken=4e5bdbb61e0f006ac70bd37bae246b5c&id=dfws&type=sz
-❤️东方卫视4K,http://i.iill.top:12838/sh/dfws
+❤️北京卫视4K,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=3p0fze&tk=lv7mQMzH8sGG
+❤️东方卫视,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=DeFIDS&tk=lv7mQMzH8sGG
 ❤️深圳卫视4K,http://nn.7x9d.cn/深圳最新.php?id=szws4k
-❤️北京卫视4K,https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s110/index.m3u8?time=1765340414&sign=c893c732245ebf9e495d53a92c1223e1
 ❤️广东卫视4K,http://218.206.221.78:90/hls/25/index.m3u8
 ❤️四川卫视4K,http://218.206.221.78:90/hls/36/index.m3u8
 ❤️山东卫视4K,http://218.206.221.78:90/hls/27/index.m3u8
 ❤️河南卫视4K,http://123.149.236.223:9003/hls/111/index.m3u8#http://219.156.50.249:9999/rtp/225.1.4.254:1300
+CCTV-16奥林匹克4K,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=zZzs5M&tk=lv7mQMzH8sGG
+CCTV-4K超高清,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=jc6BM7&tk=lv7mQMzH8sGG
 ❤️峨眉电影4K,http://183.3.202.19:2380/hw1live.rxip.sc96655.com.huan.tv/live/emdy4k_8000.m3u8$蜀小果
 ❤️峨眉电影4K,http://60.255.72.119:4022//udp/239.132.1.87:5000$四川/成都/广电网gua
 
@@ -385,7 +386,7 @@ Lifetime娛樂頻道,http://220.135.64.124:5050/4gtv-live029/index.m3u8?proxy=tr
 松視1台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/88.ts
 松視2台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/89.ts
 松視3台,http://15.204.105.50:25461/live/G2s9zK2n9m/xDtwVfWM8T/90.ts
-极限,http://pull-skycorp.speedws.com:80/live/51c0b0a02923d2352346c3a27adb0096.flv
+极限电影,http://kkk.888.3116598.xyz/api.php?n=xxxtw&id=Fx6RDK&tk=lv7mQMzH8sGG
 happy,http://pull-skycorp.speedws.com:80/live/1fcbd2acce3777f488bf31917ba1f7a9.flv
 香蕉,http://pull-skycorp.speedws.com:80/live/30eee6f0603f097c0bc62049fa6af1b7.flv
 惊艳,http://pull-skycorp.speedws.com:80/live/8f2565ee325cb612e545c88f74a38158.flv
